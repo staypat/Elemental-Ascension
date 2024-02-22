@@ -16,11 +16,11 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) // Left Click
         {
             StartCoroutine(ActivateHitbox());
         }
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1)) // Right Click
         {
             StartCoroutine(ActivateParryHitbox());
         }
