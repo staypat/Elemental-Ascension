@@ -22,6 +22,8 @@ public class ProjectileDamageScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<PlayerHealth>().takeDamage(damageAmount);
+            Destroy(this.gameObject);
         }
+        
     }
 }
