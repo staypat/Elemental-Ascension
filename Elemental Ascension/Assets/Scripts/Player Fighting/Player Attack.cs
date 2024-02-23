@@ -6,11 +6,15 @@ public class PlayerAttack : MonoBehaviour
 {
     public GameObject HitBox; // Set Hitbox GameObject
     public GameObject ParryHitbox; // Set ParryHitbox GameObject
+
+    private bool canAttack;
+    private bool canParry;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        canAttack = true;
+        canParry = true;
     }
 
     // Update is called once per frame
@@ -28,16 +32,26 @@ public class PlayerAttack : MonoBehaviour
 
     IEnumerator ActivateHitbox()
     {
-        HitBox.SetActive(true);
-        yield return new WaitForSeconds(1f);
-        HitBox.SetActive(false);
+        if(canAttack)
+        {
+            canAttack = false;
+            HitBox.SetActive(true);
+            yield return new WaitForSeconds(1f);
+            canAttack = true;
+            HitBox.SetActive(false);
+        }
+        
     }
 
     IEnumerator ActivateParryHitbox()
     {
-        ParryHitbox.SetActive(true);
-        yield return new WaitForSeconds(0.2f);
-        ParryHitbox.SetActive(false);
+        if (canParry)
+        {
+            canParry = false;
+            ParryHitbox.SetActive(true);
+            yield return new WaitForSeconds(0.2f);
+            canParry = true;
+            ParryHitbox.SetActive(false);
+        }
     }
-    
 }
