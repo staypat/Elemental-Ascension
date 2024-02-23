@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 30;
     private int currentHealth;
     public TMP_Text healthText;
+    public TMP_Text GameOverText;
     void Start()
     {
         currentHealth = maxHealth;
@@ -27,7 +28,7 @@ public class PlayerHealth : MonoBehaviour
         updateHealthText();
         if(currentHealth <= 0)
         {
-            this.gameObject.SetActive(false);
+            GameOverText.gameObject.SetActive(true);
         }
     }
     public void updateHealthText()
