@@ -35,9 +35,11 @@ public class PlayerAttack : MonoBehaviour
         if(canAttack)
         {
             canAttack = false;
+            canParry = false;
             HitBox.SetActive(true);
             yield return new WaitForSeconds(1f);
             canAttack = true;
+            canParry = true;
             HitBox.SetActive(false);
         }
         
@@ -48,9 +50,11 @@ public class PlayerAttack : MonoBehaviour
         if (canParry)
         {
             canParry = false;
+            canAttack = false;
             ParryHitbox.SetActive(true);
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.5f);
             canParry = true;
+            canAttack = true;
             ParryHitbox.SetActive(false);
         }
     }

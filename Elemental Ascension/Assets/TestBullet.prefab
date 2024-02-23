@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3964954766371278156}
   - component: {fileID: 2065244730364486259}
   - component: {fileID: 2034275502514501658}
+  - component: {fileID: 7585344853994859256}
   m_Layer: 0
   m_Name: TestBullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2653651044934150266, guid: 6d1b28b0d48b20d408f98dac579775b7, type: 3}
+  - {fileID: -1580535799172915004, guid: 3ebd4a235d2ef294e88d06fd297d2aae, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -135,3 +136,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7585344853994859256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8038902280284948149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212b56da33f2e27428a8219779ca4089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 5
