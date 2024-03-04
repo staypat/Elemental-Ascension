@@ -10,7 +10,7 @@ public class StateMachine : StateMachineBehaviour
     {
        if (Input.GetMouseButtonDown(0)) // Left Click
        {
-        Debug.Log("OnStateEnter called");
+        Debug.Log("OnStateEnter called: SWINGING STARTED!");
         // animator.SetTrigger("Swing");
         // isSwinging = true;
         animator.SetBool("isSwinging", true);
@@ -26,7 +26,7 @@ public class StateMachine : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Debug.Log("OnStateExit called");
+        Debug.Log("OnStateExit called: SWINGING FINISHED!");
         // animator.ResetTrigger("Swing");
         // isSwinging = false;
         animator.SetBool("isSwinging", false);

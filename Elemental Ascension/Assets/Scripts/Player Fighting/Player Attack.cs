@@ -23,6 +23,7 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Left Click
         {
             StartCoroutine(ActivateHitbox());
+            
         }
         if (Input.GetMouseButtonDown(1)) // Right Click
         {
