@@ -36,7 +36,7 @@ public class EditorSpawner : MonoBehaviour
 
         for (int n = 0; n < amountToSpawn; n++)
         {
-            Vector3 pos = new Vector3(transform.position.x + Random.Range(-size, size), transform.position.y, transform.position.z + Random.Range(-size, size));
+            Vector3 pos = new Vector3(transform.position.x + Random.Range(-sizeX, sizeX), transform.position.y, transform.position.z + Random.Range(-sizeZ, sizeZ));
             int randItem = Random.Range(0, objectsToSpawn.Length - 1);
 
             RaycastHit theThingIHit;
