@@ -129,12 +129,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7907993}
   - component: {fileID: 7907994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7907993
 Transform:
@@ -186,12 +186,12 @@ GameObject:
   m_Component:
   - component: {fileID: 23432978}
   - component: {fileID: 23432979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &23432978
 Transform:
@@ -245,12 +245,12 @@ GameObject:
   - component: {fileID: 45808544}
   - component: {fileID: 45808543}
   - component: {fileID: 45808542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &45808541
 Transform:
@@ -351,12 +351,12 @@ GameObject:
   - component: {fileID: 69017310}
   - component: {fileID: 69017312}
   - component: {fileID: 69017311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &69017310
 Transform:
@@ -529,12 +529,12 @@ GameObject:
   - component: {fileID: 85764532}
   - component: {fileID: 85764534}
   - component: {fileID: 85764533}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &85764532
 Transform:
@@ -615,12 +615,12 @@ GameObject:
   - component: {fileID: 88756968}
   - component: {fileID: 88756967}
   - component: {fileID: 88756966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &88756965
 Transform:
@@ -723,12 +723,12 @@ GameObject:
   - component: {fileID: 150637718}
   - component: {fileID: 150637717}
   - component: {fileID: 150637716}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &150637715
 Transform:
@@ -830,12 +830,12 @@ GameObject:
   - component: {fileID: 238745495}
   - component: {fileID: 238745494}
   - component: {fileID: 238745493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &238745492
 Transform:
@@ -936,12 +936,12 @@ GameObject:
   - component: {fileID: 240278599}
   - component: {fileID: 240278601}
   - component: {fileID: 240278600}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &240278599
 Transform:
@@ -1022,12 +1022,12 @@ GameObject:
   - component: {fileID: 252581707}
   - component: {fileID: 252581706}
   - component: {fileID: 252581705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &252581704
 Transform:
@@ -1129,12 +1129,12 @@ GameObject:
   - component: {fileID: 255452452}
   - component: {fileID: 255452454}
   - component: {fileID: 255452453}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &255452452
 Transform:
@@ -1215,12 +1215,12 @@ GameObject:
   - component: {fileID: 273800897}
   - component: {fileID: 273800896}
   - component: {fileID: 273800895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &273800894
 Transform:
@@ -1320,12 +1320,12 @@ GameObject:
   m_Component:
   - component: {fileID: 284407185}
   - component: {fileID: 284407186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &284407185
 Transform:
@@ -1378,12 +1378,12 @@ GameObject:
   - component: {fileID: 288677184}
   - component: {fileID: 288677186}
   - component: {fileID: 288677185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &288677184
 Transform:
@@ -1464,12 +1464,12 @@ GameObject:
   - component: {fileID: 292487429}
   - component: {fileID: 292487428}
   - component: {fileID: 292487427}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &292487426
 Transform:
@@ -1480,7 +1480,7 @@ Transform:
   m_GameObject: {fileID: 292487425}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.367, z: 0}
+  m_LocalPosition: {x: -0, y: 0.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1569,12 +1569,12 @@ GameObject:
   m_Component:
   - component: {fileID: 298333418}
   - component: {fileID: 298333419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &298333418
 Transform:
@@ -1628,12 +1628,12 @@ GameObject:
   - component: {fileID: 303153046}
   - component: {fileID: 303153045}
   - component: {fileID: 303153044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &303153043
 Transform:
@@ -1735,12 +1735,12 @@ GameObject:
   - component: {fileID: 303792454}
   - component: {fileID: 303792453}
   - component: {fileID: 303792452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &303792451
 Transform:
@@ -1842,12 +1842,12 @@ GameObject:
   - component: {fileID: 344489097}
   - component: {fileID: 344489096}
   - component: {fileID: 344489095}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &344489094
 Transform:
@@ -1948,12 +1948,12 @@ GameObject:
   m_Component:
   - component: {fileID: 357984545}
   - component: {fileID: 357984546}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &357984545
 Transform:
@@ -2006,12 +2006,12 @@ GameObject:
   - component: {fileID: 363589766}
   - component: {fileID: 363589768}
   - component: {fileID: 363589767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &363589766
 Transform:
@@ -2091,12 +2091,12 @@ GameObject:
   - component: {fileID: 372227571}
   - component: {fileID: 372227573}
   - component: {fileID: 372227572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &372227571
 Transform:
@@ -2176,12 +2176,12 @@ GameObject:
   - component: {fileID: 398541550}
   - component: {fileID: 398541552}
   - component: {fileID: 398541551}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &398541550
 Transform:
@@ -2262,12 +2262,12 @@ GameObject:
   - component: {fileID: 416636260}
   - component: {fileID: 416636259}
   - component: {fileID: 416636258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &416636257
 Transform:
@@ -2502,12 +2502,12 @@ GameObject:
   - component: {fileID: 422985742}
   - component: {fileID: 422985744}
   - component: {fileID: 422985743}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &422985742
 Transform:
@@ -2586,12 +2586,12 @@ GameObject:
   m_Component:
   - component: {fileID: 456432054}
   - component: {fileID: 456432055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &456432054
 Transform:
@@ -2645,12 +2645,12 @@ GameObject:
   - component: {fileID: 459875357}
   - component: {fileID: 459875356}
   - component: {fileID: 459875355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &459875354
 Transform:
@@ -2750,12 +2750,12 @@ GameObject:
   m_Component:
   - component: {fileID: 464224454}
   - component: {fileID: 464224455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &464224454
 Transform:
@@ -2809,12 +2809,12 @@ GameObject:
   - component: {fileID: 472061850}
   - component: {fileID: 472061849}
   - component: {fileID: 472061848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &472061847
 Transform:
@@ -2916,12 +2916,12 @@ GameObject:
   - component: {fileID: 476526556}
   - component: {fileID: 476526558}
   - component: {fileID: 476526557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &476526556
 Transform:
@@ -3000,12 +3000,12 @@ GameObject:
   m_Component:
   - component: {fileID: 494666122}
   - component: {fileID: 494666123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &494666122
 Transform:
@@ -3059,12 +3059,12 @@ GameObject:
   - component: {fileID: 525294772}
   - component: {fileID: 525294771}
   - component: {fileID: 525294770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &525294769
 Transform:
@@ -3164,12 +3164,12 @@ GameObject:
   m_Component:
   - component: {fileID: 525911775}
   - component: {fileID: 525911776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &525911775
 Transform:
@@ -3223,12 +3223,12 @@ GameObject:
   - component: {fileID: 535643556}
   - component: {fileID: 535643555}
   - component: {fileID: 535643554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &535643553
 Transform:
@@ -3329,12 +3329,12 @@ GameObject:
   - component: {fileID: 545923501}
   - component: {fileID: 545923503}
   - component: {fileID: 545923502}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &545923501
 Transform:
@@ -3415,12 +3415,12 @@ GameObject:
   - component: {fileID: 558727705}
   - component: {fileID: 558727704}
   - component: {fileID: 558727703}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &558727702
 Transform:
@@ -3521,12 +3521,12 @@ GameObject:
   m_Component:
   - component: {fileID: 565629430}
   - component: {fileID: 565629431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &565629430
 Transform:
@@ -3579,12 +3579,12 @@ GameObject:
   - component: {fileID: 583650754}
   - component: {fileID: 583650756}
   - component: {fileID: 583650755}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &583650754
 Transform:
@@ -3664,12 +3664,12 @@ GameObject:
   - component: {fileID: 598820633}
   - component: {fileID: 598820635}
   - component: {fileID: 598820634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &598820633
 Transform:
@@ -3750,12 +3750,12 @@ GameObject:
   - component: {fileID: 612751999}
   - component: {fileID: 612751998}
   - component: {fileID: 612751997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &612751996
 Transform:
@@ -3857,12 +3857,12 @@ GameObject:
   - component: {fileID: 619143578}
   - component: {fileID: 619143577}
   - component: {fileID: 619143576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &619143575
 Transform:
@@ -3964,12 +3964,12 @@ GameObject:
   - component: {fileID: 629924378}
   - component: {fileID: 629924377}
   - component: {fileID: 629924376}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &629924375
 Transform:
@@ -4070,12 +4070,12 @@ GameObject:
   m_Component:
   - component: {fileID: 647987935}
   - component: {fileID: 647987936}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &647987935
 Transform:
@@ -4127,12 +4127,12 @@ GameObject:
   m_Component:
   - component: {fileID: 652620414}
   - component: {fileID: 652620415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &652620414
 Transform:
@@ -4186,12 +4186,12 @@ GameObject:
   - component: {fileID: 657138132}
   - component: {fileID: 657138131}
   - component: {fileID: 657138130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &657138129
 Transform:
@@ -4294,12 +4294,12 @@ GameObject:
   - component: {fileID: 669672683}
   - component: {fileID: 669672682}
   - component: {fileID: 669672681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &669672680
 Transform:
@@ -4399,12 +4399,12 @@ GameObject:
   m_Component:
   - component: {fileID: 683171991}
   - component: {fileID: 683171992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &683171991
 Transform:
@@ -4457,12 +4457,12 @@ GameObject:
   - component: {fileID: 698867854}
   - component: {fileID: 698867856}
   - component: {fileID: 698867855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &698867854
 Transform:
@@ -4543,12 +4543,12 @@ GameObject:
   - component: {fileID: 722584137}
   - component: {fileID: 722584136}
   - component: {fileID: 722584135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &722584134
 Transform:
@@ -4651,12 +4651,12 @@ GameObject:
   - component: {fileID: 738171519}
   - component: {fileID: 738171518}
   - component: {fileID: 738171517}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &738171516
 Transform:
@@ -4758,12 +4758,12 @@ GameObject:
   - component: {fileID: 775986264}
   - component: {fileID: 775986266}
   - component: {fileID: 775986265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &775986264
 Transform:
@@ -4843,12 +4843,12 @@ GameObject:
   - component: {fileID: 796746066}
   - component: {fileID: 796746068}
   - component: {fileID: 796746067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &796746066
 Transform:
@@ -4929,12 +4929,12 @@ GameObject:
   - component: {fileID: 829386384}
   - component: {fileID: 829386383}
   - component: {fileID: 829386382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &829386381
 Transform:
@@ -5024,6 +5024,69 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829386380}
   m_Mesh: {fileID: -5773737330183453750, guid: 603970f97e50c56488ec3c5a6febd940, type: 3}
+--- !u!1 &840060299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840060301}
+  - component: {fileID: 840060300}
+  m_Layer: 0
+  m_Name: NavMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &840060300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840060299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 320
+  m_UseGeometry: 1
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: dc141b1f50a627447968187c0c25d95a, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!4 &840060301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840060299}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 85.9, y: 0, z: 65.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &848071607
 GameObject:
   m_ObjectHideFlags: 0
@@ -5036,12 +5099,12 @@ GameObject:
   - component: {fileID: 848071611}
   - component: {fileID: 848071610}
   - component: {fileID: 848071609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &848071608
 Transform:
@@ -5143,12 +5206,12 @@ GameObject:
   - component: {fileID: 888664893}
   - component: {fileID: 888664892}
   - component: {fileID: 888664891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &888664890
 Transform:
@@ -5248,12 +5311,12 @@ GameObject:
   m_Component:
   - component: {fileID: 891000809}
   - component: {fileID: 891000810}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &891000809
 Transform:
@@ -5305,12 +5368,12 @@ GameObject:
   m_Component:
   - component: {fileID: 907221889}
   - component: {fileID: 907221890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &907221889
 Transform:
@@ -5363,12 +5426,12 @@ GameObject:
   - component: {fileID: 913503351}
   - component: {fileID: 913503353}
   - component: {fileID: 913503352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &913503351
 Transform:
@@ -5447,12 +5510,12 @@ GameObject:
   m_Component:
   - component: {fileID: 931480915}
   - component: {fileID: 931480916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &931480915
 Transform:
@@ -5505,12 +5568,12 @@ GameObject:
   - component: {fileID: 951401639}
   - component: {fileID: 951401641}
   - component: {fileID: 951401640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &951401639
 Transform:
@@ -5590,12 +5653,12 @@ GameObject:
   - component: {fileID: 952875686}
   - component: {fileID: 952875688}
   - component: {fileID: 952875687}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &952875686
 Transform:
@@ -5675,12 +5738,12 @@ GameObject:
   - component: {fileID: 952941908}
   - component: {fileID: 952941910}
   - component: {fileID: 952941909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &952941908
 Transform:
@@ -5759,12 +5822,12 @@ GameObject:
   m_Component:
   - component: {fileID: 998247662}
   - component: {fileID: 998247663}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &998247662
 Transform:
@@ -5817,12 +5880,12 @@ GameObject:
   - component: {fileID: 1001730517}
   - component: {fileID: 1001730519}
   - component: {fileID: 1001730518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1001730517
 Transform:
@@ -5903,12 +5966,12 @@ GameObject:
   - component: {fileID: 1021911443}
   - component: {fileID: 1021911442}
   - component: {fileID: 1021911441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1021911440
 Transform:
@@ -6011,12 +6074,12 @@ GameObject:
   - component: {fileID: 1022589060}
   - component: {fileID: 1022589059}
   - component: {fileID: 1022589058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1022589057
 Transform:
@@ -6118,12 +6181,12 @@ GameObject:
   - component: {fileID: 1028305922}
   - component: {fileID: 1028305924}
   - component: {fileID: 1028305923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1028305922
 Transform:
@@ -6204,12 +6267,12 @@ GameObject:
   - component: {fileID: 1028419340}
   - component: {fileID: 1028419339}
   - component: {fileID: 1028419338}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1028419337
 Transform:
@@ -6312,12 +6375,12 @@ GameObject:
   - component: {fileID: 1036110551}
   - component: {fileID: 1036110550}
   - component: {fileID: 1036110549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1036110548
 Transform:
@@ -6420,12 +6483,12 @@ GameObject:
   - component: {fileID: 1047944508}
   - component: {fileID: 1047944507}
   - component: {fileID: 1047944506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1047944505
 Transform:
@@ -6527,12 +6590,12 @@ GameObject:
   - component: {fileID: 1100756773}
   - component: {fileID: 1100756772}
   - component: {fileID: 1100756771}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1100756770
 Transform:
@@ -6543,7 +6606,7 @@ Transform:
   m_GameObject: {fileID: 1100756769}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.73, y: 1.82, z: 0}
+  m_LocalPosition: {x: 2.73, y: 1.82, z: 0.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6633,12 +6696,12 @@ GameObject:
   - component: {fileID: 1107397831}
   - component: {fileID: 1107397833}
   - component: {fileID: 1107397832}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1107397831
 Transform:
@@ -6719,12 +6782,12 @@ GameObject:
   - component: {fileID: 1116707988}
   - component: {fileID: 1116707987}
   - component: {fileID: 1116707986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1116707985
 Transform:
@@ -6826,12 +6889,12 @@ GameObject:
   - component: {fileID: 1125853231}
   - component: {fileID: 1125853233}
   - component: {fileID: 1125853232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1125853231
 Transform:
@@ -6910,12 +6973,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1127208148}
   - component: {fileID: 1127208149}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1127208148
 Transform:
@@ -6969,12 +7032,12 @@ GameObject:
   - component: {fileID: 1129376988}
   - component: {fileID: 1129376987}
   - component: {fileID: 1129376986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1129376985
 Transform:
@@ -7075,12 +7138,12 @@ GameObject:
   - component: {fileID: 1132090678}
   - component: {fileID: 1132090680}
   - component: {fileID: 1132090679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1132090678
 Transform:
@@ -7161,12 +7224,12 @@ GameObject:
   - component: {fileID: 1159480533}
   - component: {fileID: 1159480532}
   - component: {fileID: 1159480531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1159480530
 Transform:
@@ -7177,7 +7240,7 @@ Transform:
   m_GameObject: {fileID: 1159480529}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.52, y: 2.6530213, z: 0}
+  m_LocalPosition: {x: -3.52, y: 0.977, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7266,12 +7329,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1160334118}
   - component: {fileID: 1160334119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1160334118
 Transform:
@@ -7323,12 +7386,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1175500454}
   - component: {fileID: 1175500455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1175500454
 Transform:
@@ -7381,12 +7444,12 @@ GameObject:
   - component: {fileID: 1188253491}
   - component: {fileID: 1188253493}
   - component: {fileID: 1188253492}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1188253491
 Transform:
@@ -7467,12 +7530,12 @@ GameObject:
   - component: {fileID: 1192908219}
   - component: {fileID: 1192908218}
   - component: {fileID: 1192908217}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1192908216
 Transform:
@@ -7574,12 +7637,12 @@ GameObject:
   - component: {fileID: 1206683118}
   - component: {fileID: 1206683120}
   - component: {fileID: 1206683119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1206683118
 Transform:
@@ -7660,12 +7723,12 @@ GameObject:
   - component: {fileID: 1207025660}
   - component: {fileID: 1207025659}
   - component: {fileID: 1207025658}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1207025657
 Transform:
@@ -7768,12 +7831,12 @@ GameObject:
   - component: {fileID: 1208923204}
   - component: {fileID: 1208923203}
   - component: {fileID: 1208923202}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1208923201
 Transform:
@@ -7876,12 +7939,12 @@ GameObject:
   - component: {fileID: 1221101292}
   - component: {fileID: 1221101291}
   - component: {fileID: 1221101290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1221101289
 Transform:
@@ -7983,12 +8046,12 @@ GameObject:
   - component: {fileID: 1243629436}
   - component: {fileID: 1243629435}
   - component: {fileID: 1243629434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1243629433
 Transform:
@@ -8089,12 +8152,12 @@ GameObject:
   - component: {fileID: 1252449830}
   - component: {fileID: 1252449832}
   - component: {fileID: 1252449831}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1252449830
 Transform:
@@ -8174,12 +8237,12 @@ GameObject:
   - component: {fileID: 1262252343}
   - component: {fileID: 1262252345}
   - component: {fileID: 1262252344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1262252343
 Transform:
@@ -8258,12 +8321,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1263549968}
   - component: {fileID: 1263549969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1263549968
 Transform:
@@ -8315,12 +8378,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1279941695}
   - component: {fileID: 1279941696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1279941695
 Transform:
@@ -8372,12 +8435,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1285036947}
   - component: {fileID: 1285036948}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1285036947
 Transform:
@@ -8429,12 +8492,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1356434881}
   - component: {fileID: 1356434882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1356434881
 Transform:
@@ -8486,12 +8549,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1364949277}
   - component: {fileID: 1364949278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1364949277
 Transform:
@@ -8545,12 +8608,12 @@ GameObject:
   - component: {fileID: 1388110041}
   - component: {fileID: 1388110040}
   - component: {fileID: 1388110039}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1388110038
 Transform:
@@ -8653,12 +8716,12 @@ GameObject:
   - component: {fileID: 1405147184}
   - component: {fileID: 1405147183}
   - component: {fileID: 1405147182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1405147181
 Transform:
@@ -8760,12 +8823,12 @@ GameObject:
   - component: {fileID: 1420196121}
   - component: {fileID: 1420196120}
   - component: {fileID: 1420196119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1420196118
 Transform:
@@ -8868,12 +8931,12 @@ GameObject:
   - component: {fileID: 1427942910}
   - component: {fileID: 1427942909}
   - component: {fileID: 1427942908}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1427942907
 Transform:
@@ -9090,12 +9153,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1446593897}
   - component: {fileID: 1446593898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1446593897
 Transform:
@@ -9149,12 +9212,12 @@ GameObject:
   - component: {fileID: 1471311025}
   - component: {fileID: 1471311024}
   - component: {fileID: 1471311023}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1471311022
 Transform:
@@ -9256,12 +9319,12 @@ GameObject:
   - component: {fileID: 1478765912}
   - component: {fileID: 1478765914}
   - component: {fileID: 1478765913}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1478765912
 Transform:
@@ -9342,12 +9405,12 @@ GameObject:
   - component: {fileID: 1487191408}
   - component: {fileID: 1487191407}
   - component: {fileID: 1487191406}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1487191405
 Transform:
@@ -9447,12 +9510,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1513624808}
   - component: {fileID: 1513624809}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1513624808
 Transform:
@@ -9506,12 +9569,12 @@ GameObject:
   - component: {fileID: 1517881384}
   - component: {fileID: 1517881383}
   - component: {fileID: 1517881382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1517881381
 Transform:
@@ -9611,12 +9674,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1531752070}
   - component: {fileID: 1531752071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1531752070
 Transform:
@@ -9668,12 +9731,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1563304986}
   - component: {fileID: 1563304987}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1563304986
 Transform:
@@ -9727,12 +9790,12 @@ GameObject:
   - component: {fileID: 1581650171}
   - component: {fileID: 1581650170}
   - component: {fileID: 1581650169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1581650168
 Transform:
@@ -9834,12 +9897,12 @@ GameObject:
   - component: {fileID: 1588958525}
   - component: {fileID: 1588958524}
   - component: {fileID: 1588958523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1588958522
 Transform:
@@ -9939,12 +10002,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1589932885}
   - component: {fileID: 1589932886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1589932885
 Transform:
@@ -9996,12 +10059,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1596374426}
   - component: {fileID: 1596374427}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1596374426
 Transform:
@@ -10054,12 +10117,12 @@ GameObject:
   - component: {fileID: 1605478236}
   - component: {fileID: 1605478238}
   - component: {fileID: 1605478237}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1605478236
 Transform:
@@ -10139,12 +10202,12 @@ GameObject:
   - component: {fileID: 1625321210}
   - component: {fileID: 1625321212}
   - component: {fileID: 1625321211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1625321210
 Transform:
@@ -10225,12 +10288,12 @@ GameObject:
   - component: {fileID: 1634115274}
   - component: {fileID: 1634115273}
   - component: {fileID: 1634115272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1634115271
 Transform:
@@ -10331,12 +10394,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1644377833}
   - component: {fileID: 1644377834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1644377833
 Transform:
@@ -10390,12 +10453,12 @@ GameObject:
   - component: {fileID: 1662001426}
   - component: {fileID: 1662001425}
   - component: {fileID: 1662001424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1662001423
 Transform:
@@ -10497,12 +10560,12 @@ GameObject:
   - component: {fileID: 1665496230}
   - component: {fileID: 1665496229}
   - component: {fileID: 1665496228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1665496227
 Transform:
@@ -10741,12 +10804,12 @@ GameObject:
   - component: {fileID: 1683303216}
   - component: {fileID: 1683303218}
   - component: {fileID: 1683303217}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1683303216
 Transform:
@@ -10825,12 +10888,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1696155245}
   - component: {fileID: 1696155246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1696155245
 Transform:
@@ -10884,12 +10947,12 @@ GameObject:
   - component: {fileID: 1702473018}
   - component: {fileID: 1702473017}
   - component: {fileID: 1702473016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1702473015
 Transform:
@@ -10990,12 +11053,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1713541009}
   - component: {fileID: 1713541010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1713541009
 Transform:
@@ -11049,12 +11112,12 @@ GameObject:
   - component: {fileID: 1719289636}
   - component: {fileID: 1719289635}
   - component: {fileID: 1719289634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1719289633
 Transform:
@@ -11155,12 +11218,12 @@ GameObject:
   - component: {fileID: 1743149447}
   - component: {fileID: 1743149449}
   - component: {fileID: 1743149448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1743149447
 Transform:
@@ -11241,12 +11304,12 @@ GameObject:
   - component: {fileID: 1750811214}
   - component: {fileID: 1750811213}
   - component: {fileID: 1750811212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1750811211
 Transform:
@@ -11349,12 +11412,12 @@ GameObject:
   - component: {fileID: 1761201715}
   - component: {fileID: 1761201714}
   - component: {fileID: 1761201713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1761201712
 Transform:
@@ -11456,12 +11519,12 @@ GameObject:
   - component: {fileID: 1763419199}
   - component: {fileID: 1763419198}
   - component: {fileID: 1763419197}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1763419196
 Transform:
@@ -11563,12 +11626,12 @@ GameObject:
   - component: {fileID: 1784361027}
   - component: {fileID: 1784361026}
   - component: {fileID: 1784361025}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1784361024
 Transform:
@@ -11670,12 +11733,12 @@ GameObject:
   - component: {fileID: 1812261439}
   - component: {fileID: 1812261438}
   - component: {fileID: 1812261437}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1812261436
 Transform:
@@ -11777,12 +11840,12 @@ GameObject:
   - component: {fileID: 1812775148}
   - component: {fileID: 1812775147}
   - component: {fileID: 1812775146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1812775145
 Transform:
@@ -11883,12 +11946,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1813353109}
   - component: {fileID: 1813353110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1813353109
 Transform:
@@ -11942,12 +12005,12 @@ GameObject:
   - component: {fileID: 1817040287}
   - component: {fileID: 1817040286}
   - component: {fileID: 1817040285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1817040284
 Transform:
@@ -12047,12 +12110,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1823795702}
   - component: {fileID: 1823795703}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1823795702
 Transform:
@@ -12106,12 +12169,12 @@ GameObject:
   - component: {fileID: 1858294212}
   - component: {fileID: 1858294211}
   - component: {fileID: 1858294210}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1858294209
 Transform:
@@ -12212,12 +12275,12 @@ GameObject:
   - component: {fileID: 1863134788}
   - component: {fileID: 1863134790}
   - component: {fileID: 1863134789}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1863134788
 Transform:
@@ -12298,12 +12361,12 @@ GameObject:
   - component: {fileID: 1866440411}
   - component: {fileID: 1866440410}
   - component: {fileID: 1866440409}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1866440408
 Transform:
@@ -12406,12 +12469,12 @@ GameObject:
   - component: {fileID: 1871577957}
   - component: {fileID: 1871577956}
   - component: {fileID: 1871577955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1871577954
 Transform:
@@ -12511,12 +12574,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1872969570}
   - component: {fileID: 1872969571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1872969570
 Transform:
@@ -12567,12 +12630,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1877841351}
-  m_Layer: 0
+  - component: {fileID: 1877841352}
+  m_Layer: 8
   m_Name: SpawnedObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1877841351
 Transform:
@@ -12661,6 +12725,25 @@ Transform:
   - {fileID: 416636257}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1877841352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877841350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1885249215
 GameObject:
   m_ObjectHideFlags: 0
@@ -12671,12 +12754,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1885249216}
   - component: {fileID: 1885249217}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1885249216
 Transform:
@@ -12728,12 +12811,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1887998664}
   - component: {fileID: 1887998665}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1887998664
 Transform:
@@ -12787,12 +12870,12 @@ GameObject:
   - component: {fileID: 1890458866}
   - component: {fileID: 1890458865}
   - component: {fileID: 1890458864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1890458863
 Transform:
@@ -12893,12 +12976,12 @@ GameObject:
   - component: {fileID: 1922123795}
   - component: {fileID: 1922123797}
   - component: {fileID: 1922123796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1922123795
 Transform:
@@ -12978,12 +13061,12 @@ GameObject:
   - component: {fileID: 1939082004}
   - component: {fileID: 1939082006}
   - component: {fileID: 1939082005}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1939082004
 Transform:
@@ -13063,12 +13146,12 @@ GameObject:
   - component: {fileID: 1947444456}
   - component: {fileID: 1947444458}
   - component: {fileID: 1947444457}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1947444456
 Transform:
@@ -13149,12 +13232,12 @@ GameObject:
   - component: {fileID: 1967993304}
   - component: {fileID: 1967993303}
   - component: {fileID: 1967993302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1967993301
 Transform:
@@ -13256,12 +13339,12 @@ GameObject:
   - component: {fileID: 2001864924}
   - component: {fileID: 2001864923}
   - component: {fileID: 2001864922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2001864921
 Transform:
@@ -13363,12 +13446,12 @@ GameObject:
   - component: {fileID: 2024978029}
   - component: {fileID: 2024978031}
   - component: {fileID: 2024978030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2024978029
 Transform:
@@ -13448,12 +13531,12 @@ GameObject:
   - component: {fileID: 2035562357}
   - component: {fileID: 2035562359}
   - component: {fileID: 2035562358}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2035562357
 Transform:
@@ -13532,12 +13615,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2066392888}
   - component: {fileID: 2066392889}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2066392888
 Transform:
@@ -13591,12 +13674,12 @@ GameObject:
   - component: {fileID: 2068060247}
   - component: {fileID: 2068060246}
   - component: {fileID: 2068060245}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2068060244
 Transform:
@@ -13697,12 +13780,12 @@ GameObject:
   - component: {fileID: 2069225197}
   - component: {fileID: 2069225199}
   - component: {fileID: 2069225198}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2069225197
 Transform:
@@ -13783,12 +13866,12 @@ GameObject:
   - component: {fileID: 2073883681}
   - component: {fileID: 2073883680}
   - component: {fileID: 2073883679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2073883678
 Transform:
@@ -13891,12 +13974,12 @@ GameObject:
   - component: {fileID: 2078446987}
   - component: {fileID: 2078446986}
   - component: {fileID: 2078446985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2078446984
 Transform:
@@ -13998,12 +14081,12 @@ GameObject:
   - component: {fileID: 2086148263}
   - component: {fileID: 2086148262}
   - component: {fileID: 2086148261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2086148260
 Transform:
@@ -14103,12 +14186,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2094873558}
   - component: {fileID: 2094873559}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2094873558
 Transform:
@@ -14160,12 +14243,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2095014242}
   - component: {fileID: 2095014243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2095014242
 Transform:
@@ -14218,12 +14301,12 @@ GameObject:
   - component: {fileID: 2117006835}
   - component: {fileID: 2117006837}
   - component: {fileID: 2117006836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree_05_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2117006835
 Transform:
@@ -14304,12 +14387,12 @@ GameObject:
   - component: {fileID: 2135100348}
   - component: {fileID: 2135100347}
   - component: {fileID: 2135100346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock_04(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2135100345
 Transform:
@@ -14409,3 +14492,4 @@ SceneRoots:
   - {fileID: 71455700}
   - {fileID: 421416195}
   - {fileID: 1877841351}
+  - {fileID: 840060301}
