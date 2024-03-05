@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    public int playerHP;
+
     public static GameManager Instance { get { return _instance; } }
     // Start is called before the first frame update
     void Start()
@@ -29,9 +31,5 @@ public class GameManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
-    }
-    public void LoadGameScene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
     }
 }

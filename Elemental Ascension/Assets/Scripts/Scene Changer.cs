@@ -20,6 +20,7 @@ public class SceneChanger : MonoBehaviour
 
     public void GoToScene(string sceneName)
     {
+        GameManager.Instance.playerHP = PlayerHealth.Instance.currentHealth;
         SceneManager.LoadScene(sceneName);
         // Type in name of scene in inspector
     }

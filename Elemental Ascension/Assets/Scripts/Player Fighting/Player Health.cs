@@ -7,8 +7,10 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     // Start is called before the first frame update
+    private static PlayerHealth _instance;
+    public static PlayerHealth Instance { get { return _instance; } }
     public int maxHealth = 30;
-    private int currentHealth;
+    public int currentHealth;
     public TMP_Text healthText;
     public TMP_Text GameOverText;
     void Start()
@@ -21,6 +23,18 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         
+    }
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
     }
     public void takeDamage(int damage)
     {
