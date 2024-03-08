@@ -29,6 +29,10 @@ public class EnemyAI : MonoBehaviour
     public float attackRange;
     public bool playerInSightRange;
     public bool playerInAttackRange;
+
+    //Kiting
+    public float kiteDist;
+
     void Start()
     {
         
@@ -51,6 +55,10 @@ public class EnemyAI : MonoBehaviour
         if (playerInSightRange && playerInAttackRange)
         {
             AttackPlayer();
+        }
+        if (playerInSightRange && Vector3.Distance(transform.position, player.position) < kiteDist)
+        {
+            KitePlayer();
         }
     }
     private void Awake()
@@ -103,6 +111,11 @@ public class EnemyAI : MonoBehaviour
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
+    }
+    private void KitePlayer()
+    {
+        Vector3 kitePoint = transform.position - (player.position - transform.position).normalized * kiteDist;
+        agent.SetDestination(kitePoint);
     }
     private void ResetAttack()
     {
