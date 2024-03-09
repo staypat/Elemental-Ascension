@@ -9,27 +9,29 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
-
     public float groundDrag;
-
     public float jumpForce;
     public float jumpCooldown;
     public float airMultiplier;
+    public float dashForce;
+    public float dashCooldown = 2f;
+    private float dashTime = 0.1f;
+    // public float dashCooldown;
     bool readyToJump;
+    bool isDashing = false;
 
     [HideInInspector] public float walkSpeed;
     [HideInInspector] public float sprintSpeed;
 
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
+    public KeyCode dashKey = KeyCode.LeftShift;
 
     [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whatIsGround;
     bool grounded;
-
     public Transform orientation;
-
     float horizontalInput;
     float verticalInput;
 
@@ -79,6 +81,14 @@ public class PlayerMovement : MonoBehaviour
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
+
+        // when to dash
+        if (Input.GetKeyDown(dashKey))
+        {
+            StartCoroutine(Dash());
+        }
+
+
     }
 
     private void MovePlayer()
@@ -117,5 +127,21 @@ public class PlayerMovement : MonoBehaviour
     private void ResetJump()
     {
         readyToJump = true;
+    }
+
+    private IEnumerator Dash()
+    {
+        isDashing = true;
+        Vector3 dashDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized; // Dash in the direction of movement
+        float startTime = Time.time;
+
+        while (Time.time < startTime + dashTime)
+        {
+            rb.AddForce(dashDirection * dashForce, ForceMode.Impulse);
+            yield return null; // Wait for the next frame
+        }
+
+        yield return new WaitForSeconds(dashCooldown);
+        isDashing = false;
     }
 }

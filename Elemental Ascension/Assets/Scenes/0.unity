@@ -2360,28 +2360,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1489514876}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &483829377
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483829375}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1bab28cf5359ec3459e9287165032466, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!111 &483829378
 Animation:
   m_ObjectHideFlags: 0
@@ -2395,6 +2373,7 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: b0f7f7438e881df4fbe1da91e99f210e, type: 2}
   - {fileID: 7400000, guid: 0452c4aaff739384ead7538e56ee2271, type: 2}
+  - {fileID: 7400000, guid: 7d5c8fb8f0222f946a1e0778e04ebdd2, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -2415,6 +2394,7 @@ MonoBehaviour:
   anim: {fileID: 483829378}
   idleClip: {fileID: 7400000, guid: b0f7f7438e881df4fbe1da91e99f210e, type: 2}
   attackClip: {fileID: 7400000, guid: 0452c4aaff739384ead7538e56ee2271, type: 2}
+  parryClip: {fileID: 7400000, guid: 7d5c8fb8f0222f946a1e0778e04ebdd2, type: 2}
 --- !u!1 &501171181
 GameObject:
   m_ObjectHideFlags: 0
@@ -2552,6 +2532,7 @@ MonoBehaviour:
   jumpForce: 6
   jumpCooldown: 1
   airMultiplier: 0.4
+  dashForce: 0
   walkSpeed: 0
   sprintSpeed: 0
   jumpKey: 32
@@ -5025,7 +5006,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 739ab8bf326a7df48a2545310d06af03,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.155
+      value: 0.482
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 739ab8bf326a7df48a2545310d06af03,
         type: 3}
@@ -5035,7 +5016,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 739ab8bf326a7df48a2545310d06af03,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.235
+      value: 1.196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 739ab8bf326a7df48a2545310d06af03,
         type: 3}
@@ -5101,10 +5082,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 739ab8bf326a7df48a2545310d06af03,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 483829377}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 739ab8bf326a7df48a2545310d06af03,
         type: 3}
       insertIndex: -1
@@ -5312,6 +5289,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyTestAI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808423116659731923, guid: 7f21019dcd87fca42b8eeac778d264ed,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10373,7 +10355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2105981480
 MonoBehaviour:
   m_ObjectHideFlags: 0

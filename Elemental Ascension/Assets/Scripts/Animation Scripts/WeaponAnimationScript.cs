@@ -26,78 +26,67 @@ public class WeaponAnimationScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (idle)
-        {
-            anim.Play("Idle");
-        }
-
-        if (isSwinging)
-        {
-            anim.Play("Weapon Swing");
-        }
-        
-        if (isParrying)
-        {
-            anim.Play("Parry");
-        }
 
         // ----- Attack Animation START -----
 
+            // If the player presses the left mouse button, play the attack animation
             if (Input.GetMouseButtonDown(0))
             {
                 if (idle)
                 {
-                      
-
+                    idle = false;
+                    isSwinging = true;                    
+                    GetComponent<Animation>().Stop("Idle");
+                    GetComponent<Animation>().Play("Weapon Swing");
+                    Debug.Log("Swinging Start");
                 }
             }
 
-            // // If the player presses the left mouse button, play the attack animation
-            // if (Input.GetMouseButtonDown(0))
-            // {
-            //     if (idle)
-            //     {
-            //         GetComponent<Animation>().Stop("Idle");
-            //         GetComponent<Animation>().Play("Weapon Swing");
-            //         idle = false;
-            //         isSwinging = true;
-            //         Debug.Log("Swinging Start");
-            //     }
-            // }
-
-            // // If the swing animation has finished playing, set isSwinging to false
-            // if (!GetComponent<Animation>().IsPlaying("Weapon Swing")) // Add this line
-            // {
-            //     isSwinging = false; // Add this line
-            //     idle = true;
-            //     GetComponent<Animation>().Stop("Weapon Swing");
-            //     GetComponent<Animation>().Play("Idle");
-            // }
+            // If the swing animation has finished playing, set isSwinging to false
+            if (!GetComponent<Animation>().IsPlaying("Weapon Swing")) // Add this line
+            {
+                isSwinging = false; // Add this line
+                idle = true;
+                GetComponent<Animation>().Stop("Weapon Swing");
+                GetComponent<Animation>().Play("Idle");
+            }
 
         // ----- Attack Animation END -----
 
         // ----- Parry Animation START -----
 
-            // // If the player presses the right mouse button, play the parry animation
-            // if (Input.GetMouseButtonDown(1))
-            // {
-            //     if (idle)
-            //     {
-            //         GetComponent<Animation>().Stop("Idle");
-            //         GetComponent<Animation>().Play("Parry");
-            //         idle = false;
-            //         isParrying = true;
-            //     }
-            // }
+            // If the player presses the right mouse button, play the parry animation
+            if (Input.GetMouseButtonDown(1))
+            {
+                if (idle)
+                {
+                    idle = false;
+                    isParrying = true;
+                    GetComponent<Animation>().Stop("Idle");
+                    GetComponent<Animation>().Play("Parry");
+                    Debug.Log("Parrying Start");
+                    // StartCoroutine(StopParrying());
+                }
+            }
 
-            // // If the parry animation has finished playing, set isSwinging to false
-            // if (!GetComponent<Animation>().IsPlaying("Parry")) // Add this line
+            // IEnumerator StopParrying()
             // {
+            //     yield return new WaitForSeconds(0.5f); // Wait for a short duration
             //     idle = true;
             //     isParrying = false;
             //     GetComponent<Animation>().Stop("Parry");
             //     GetComponent<Animation>().Play("Idle"); 
+            //     Debug.Log("Parrying End");
             // }
+
+            // If the parry animation has finished playing, set Parry to false
+            if (!GetComponent<Animation>().IsPlaying("Parry") && isParrying) // Add this line
+            {
+                idle = true;
+                isParrying = false;
+                GetComponent<Animation>().Stop("Parry");
+                GetComponent<Animation>().Play("Idle"); 
+            }
 
         // ----- Parry Animation END -----
 
