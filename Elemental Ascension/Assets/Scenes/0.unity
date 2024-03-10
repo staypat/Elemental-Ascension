@@ -2394,6 +2394,19 @@ MonoBehaviour:
   anim: {fileID: 483829378}
   idleClip: {fileID: 7400000, guid: b0f7f7438e881df4fbe1da91e99f210e, type: 2}
   attackClip: {fileID: 7400000, guid: 0452c4aaff739384ead7538e56ee2271, type: 2}
+--- !u!114 &483829380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483829375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b4be621fb996f4d810cf7e183ea2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 483829378}
   parryClip: {fileID: 7400000, guid: 7d5c8fb8f0222f946a1e0778e04ebdd2, type: 2}
 --- !u!1 &501171181
 GameObject:
@@ -2532,10 +2545,12 @@ MonoBehaviour:
   jumpForce: 6
   jumpCooldown: 1
   airMultiplier: 0.4
-  dashForce: 0
+  dashForce: 10
+  dashCooldown: 2
   walkSpeed: 0
   sprintSpeed: 0
   jumpKey: 32
+  dashKey: 304
   playerHeight: 2
   whatIsGround:
     serializedVersion: 2
@@ -5090,6 +5105,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 483829379}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 739ab8bf326a7df48a2545310d06af03,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 483829380}
   m_SourcePrefab: {fileID: 100100000, guid: 739ab8bf326a7df48a2545310d06af03, type: 3}
 --- !u!1 &1505959064
 GameObject:
