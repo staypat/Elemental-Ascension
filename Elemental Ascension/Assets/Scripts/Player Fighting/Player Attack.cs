@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -9,8 +10,10 @@ public class PlayerAttack : MonoBehaviour
     public GameObject ParryHitbox; // Set ParryHitbox GameObject
     public Image CooldownBoxAttack;
     public Image CooldownBoxParry;
+    public TMP_Text cooldownTextAttack;
+    public TMP_Text cooldownTextParry;
 
-    public float attackCooldown = 0.5f;
+    public float attackCooldown = 0.6f;
     public float parryCooldown = 3f;
 
     private bool canAttack;
@@ -23,6 +26,8 @@ public class PlayerAttack : MonoBehaviour
         canParry = true;
         CooldownBoxAttack.fillAmount = 1f;
         CooldownBoxParry.fillAmount = 1f;
+        cooldownTextAttack.gameObject.SetActive(false);
+        cooldownTextParry.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -44,16 +49,18 @@ public class PlayerAttack : MonoBehaviour
         if(canAttack)
         {
             canAttack = false;
-            canParry = false;
             HitBox.SetActive(true);
+            cooldownTextAttack.gameObject.SetActive(true);
+            cooldownTextAttack.text = attackCooldown.ToString();
             while (CooldownBoxAttack.fillAmount > 0)
             {
                 CooldownBoxAttack.fillAmount -= Time.deltaTime / attackCooldown;
+                cooldownTextAttack.text = (CooldownBoxAttack.fillAmount * attackCooldown).ToString("F1");
                 yield return null;
             }
             CooldownBoxAttack.fillAmount = 1f;
             canAttack = true;
-            canParry = true;
+            cooldownTextAttack.gameObject.SetActive(false);
             HitBox.SetActive(false);
         }
         
@@ -64,17 +71,19 @@ public class PlayerAttack : MonoBehaviour
         if (canParry)
         {
             canParry = false;
-            canAttack = false;
             ParryHitbox.SetActive(true);
             yield return new WaitForSeconds(1.0f);
-            canAttack = true;
+            cooldownTextParry.gameObject.SetActive(true);
+            cooldownTextParry.text = parryCooldown.ToString();
             ParryHitbox.SetActive(false);
             while (CooldownBoxParry.fillAmount > 0)
             {
                 CooldownBoxParry.fillAmount -= Time.deltaTime / parryCooldown;
+                cooldownTextParry.text = (CooldownBoxParry.fillAmount * parryCooldown).ToString("F1");
                 yield return null;
             }
             CooldownBoxParry.fillAmount = 1f;
+            cooldownTextParry.gameObject.SetActive(false);
             canParry = true;
         }
     }

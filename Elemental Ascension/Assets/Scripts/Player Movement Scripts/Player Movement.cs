@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public float dashCooldown = 2f;
     private float dashTime = 0.1f;
     public Image dashCooldownBox;
+    public TMP_Text cooldownTextDash;
     // public float dashCooldown;
     bool readyToJump;
     bool isDashing = false;
@@ -48,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
         readyToJump = true;
         dashCooldownBox.fillAmount = 1f;
+        cooldownTextDash.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -137,6 +139,8 @@ public class PlayerMovement : MonoBehaviour
         if (!isDashing)
         {
             isDashing = true;
+            cooldownTextDash.gameObject.SetActive(true);
+            cooldownTextDash.text = dashCooldown.ToString();
             Vector3 dashDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized; // Dash in the direction of movement
             float startTime = Time.time;
 
@@ -148,9 +152,11 @@ public class PlayerMovement : MonoBehaviour
             while (dashCooldownBox.fillAmount > 0)
             {
                 dashCooldownBox.fillAmount -= Time.deltaTime / dashCooldown;
+                cooldownTextDash.text = (dashCooldownBox.fillAmount * dashCooldown).ToString("F1");
                 yield return null;
             }
             dashCooldownBox.fillAmount = 1f;
+            cooldownTextDash.gameObject.SetActive(false);
             isDashing = false;
         }
     }
