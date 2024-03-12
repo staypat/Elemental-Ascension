@@ -32,4 +32,31 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
         }
     }
+
+    void OnEnable()
+    {
+        // Subscribe to the sceneLoaded event
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        // Unsubscribe from the sceneLoaded event
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    // This method will be called every time a new scene is loaded
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Check if the player exists in the scene
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            if (scene.name == "1-1")
+            {
+                Debug.Log("Loaded scene 1-1");
+                player.transform.position = new Vector3(97, 4, 47);
+            }
+        }
+    }
 }
