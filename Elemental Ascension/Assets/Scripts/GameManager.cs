@@ -57,6 +57,10 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Loaded scene 1-1");
                 player.transform.position = new Vector3(97, 4, 47);
             }
+            else if (scene.name == "1-2")
+            {
+                player.transform.position = new Vector3(4, 2, -16);
+            }
         }
     }
 }
