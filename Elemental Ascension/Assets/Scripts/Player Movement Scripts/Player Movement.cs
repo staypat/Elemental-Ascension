@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 // Link: https://www.youtube.com/watch?v=f473C43s8nE&t=244s 
 
@@ -16,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public float dashForce;
     public float dashCooldown = 2f;
     private float dashTime = 0.1f;
+    public Image dashCooldownBox;
     // public float dashCooldown;
     bool readyToJump;
     bool isDashing = false;
@@ -45,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
 
         readyToJump = true;
+        dashCooldownBox.fillAmount = 1f;
     }
 
     private void Update()
@@ -131,17 +134,24 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Dash()
     {
-        isDashing = true;
-        Vector3 dashDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized; // Dash in the direction of movement
-        float startTime = Time.time;
-
-        while (Time.time < startTime + dashTime)
+        if (!isDashing)
         {
-            rb.AddForce(dashDirection * dashForce, ForceMode.Impulse);
-            yield return null; // Wait for the next frame
-        }
+            isDashing = true;
+            Vector3 dashDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized; // Dash in the direction of movement
+            float startTime = Time.time;
 
-        yield return new WaitForSeconds(dashCooldown);
-        isDashing = false;
+            while (Time.time < startTime + dashTime)
+            {
+                rb.AddForce(dashDirection * dashForce, ForceMode.Impulse);
+                yield return null; // Wait for the next frame
+            }
+            while (dashCooldownBox.fillAmount > 0)
+            {
+                dashCooldownBox.fillAmount -= Time.deltaTime / dashCooldown;
+                yield return null;
+            }
+            dashCooldownBox.fillAmount = 1f;
+            isDashing = false;
+        }
     }
 }

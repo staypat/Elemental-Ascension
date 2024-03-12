@@ -2698,6 +2698,7 @@ MonoBehaviour:
   airMultiplier: 0.4
   dashForce: 10
   dashCooldown: 2
+  dashCooldownBox: {fileID: 1450638335}
   walkSpeed: 0
   sprintSpeed: 0
   jumpKey: 32
@@ -2748,6 +2749,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HitBox: {fileID: 1919162209}
   ParryHitbox: {fileID: 766469768}
+  CooldownBoxAttack: {fileID: 979747134}
+  CooldownBoxParry: {fileID: 320496261}
+  attackCooldown: 0.5
+  parryCooldown: 3
 --- !u!95 &501171189
 Animator:
   serializedVersion: 7

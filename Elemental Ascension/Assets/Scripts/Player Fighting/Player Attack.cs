@@ -1,11 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerAttack : MonoBehaviour
 {
     public GameObject HitBox; // Set Hitbox GameObject
     public GameObject ParryHitbox; // Set ParryHitbox GameObject
+    public Image CooldownBoxAttack;
+    public Image CooldownBoxParry;
+
+    public float attackCooldown = 0.5f;
+    public float parryCooldown = 3f;
 
     private bool canAttack;
     private bool canParry;
@@ -15,6 +21,8 @@ public class PlayerAttack : MonoBehaviour
     {
         canAttack = true;
         canParry = true;
+        CooldownBoxAttack.fillAmount = 1f;
+        CooldownBoxParry.fillAmount = 1f;
     }
 
     // Update is called once per frame
@@ -38,7 +46,12 @@ public class PlayerAttack : MonoBehaviour
             canAttack = false;
             canParry = false;
             HitBox.SetActive(true);
-            yield return new WaitForSeconds(1f);
+            while (CooldownBoxAttack.fillAmount > 0)
+            {
+                CooldownBoxAttack.fillAmount -= Time.deltaTime / attackCooldown;
+                yield return null;
+            }
+            CooldownBoxAttack.fillAmount = 1f;
             canAttack = true;
             canParry = true;
             HitBox.SetActive(false);
@@ -53,10 +66,16 @@ public class PlayerAttack : MonoBehaviour
             canParry = false;
             canAttack = false;
             ParryHitbox.SetActive(true);
-            yield return new WaitForSeconds(0.5f);
-            canParry = true;
+            yield return new WaitForSeconds(1.0f);
             canAttack = true;
             ParryHitbox.SetActive(false);
+            while (CooldownBoxParry.fillAmount > 0)
+            {
+                CooldownBoxParry.fillAmount -= Time.deltaTime / parryCooldown;
+                yield return null;
+            }
+            CooldownBoxParry.fillAmount = 1f;
+            canParry = true;
         }
     }
 }
