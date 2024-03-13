@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class GolemAI : MonoBehaviour
 {
     // Start is called before the first frame update
-    //Script taken entirely from tutorial: https://www.youtube.com/watch?v=UjkSFoLxesw
+    //Script written from tutorial: https://www.youtube.com/watch?v=UjkSFoLxesw
     public NavMeshAgent agent;
     public Transform player;
     public Animator animator;
