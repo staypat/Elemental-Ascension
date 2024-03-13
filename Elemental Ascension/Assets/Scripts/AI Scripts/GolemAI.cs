@@ -53,7 +53,7 @@ public class GolemAI : MonoBehaviour
         if (!playerInSightRange && !playerInAttackRange)
         {
             animator.SetBool("IsWalking", true);
-            animator.SetBool("IsAttacking", false);
+            // animator.SetBool("IsAttacking", false);
             Patroling();
         }
         else
@@ -63,7 +63,7 @@ public class GolemAI : MonoBehaviour
         if (playerInSightRange && !playerInAttackRange)
         {
             animator.SetBool("IsWalking", true);
-            animator.SetBool("IsAttacking", false);
+            // animator.SetBool("IsAttacking", false);
             ChasePlayer();
         }
         if (playerInSightRange && playerInAttackRange)
@@ -74,7 +74,7 @@ public class GolemAI : MonoBehaviour
         if (playerInSightRange && Vector3.Distance(transform.position, player.position) < kiteDist)
         {
             animator.SetBool("IsWalking", true);
-            animator.SetBool("IsAttacking", false);
+            // animator.SetBool("IsAttacking", false);
             KitePlayer();
         }
     }
@@ -142,7 +142,7 @@ public class GolemAI : MonoBehaviour
             Vector3 directionToPlayerAdjusted = (player.position - projectileSpawnPosition).normalized;
 
             Rigidbody rb = Instantiate(projectile, projectileSpawnPosition, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.velocity = directionToPlayerAdjusted * 16f;
+            rb.velocity = directionToPlayerAdjusted * 32f;
 
             // Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
@@ -150,7 +150,7 @@ public class GolemAI : MonoBehaviour
             //
             alreadyAttacked = true;
             animator.SetBool("IsAttacking", false);
-            animator.SetTrigger("Attack");
+            //animator.SetTrigger("Attack");
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
     }
