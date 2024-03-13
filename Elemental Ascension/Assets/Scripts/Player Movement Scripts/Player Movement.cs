@@ -141,7 +141,18 @@ public class PlayerMovement : MonoBehaviour
             isDashing = true;
             cooldownTextDash.gameObject.SetActive(true);
             cooldownTextDash.text = dashCooldown.ToString();
-            Vector3 dashDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized; // Dash in the direction of movement
+
+
+            // Getting the camera's forward and right vectors
+            Vector3 cameraForward = Camera.main.transform.forward;
+            cameraForward.y = 0;
+            cameraForward.Normalize();
+            Vector3 cameraRight = Camera.main.transform.right;
+            cameraRight.y = 0;
+            cameraRight.Normalize();
+
+            // Dash in the direction of the camera
+            Vector3 dashDirection = (cameraRight * Input.GetAxisRaw("Horizontal") + cameraForward * Input.GetAxisRaw("Vertical")).normalized; // Dash in the direction of movement
             float startTime = Time.time;
 
             while (Time.time < startTime + dashTime)
