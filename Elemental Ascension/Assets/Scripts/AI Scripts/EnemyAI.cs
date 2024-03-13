@@ -12,6 +12,11 @@ public class EnemyAI : MonoBehaviour
     public LayerMask GroundLayer;
     public LayerMask PlayerLayer;
 
+    // values for offset of attack from origin
+    public int attack_x;
+    public int attack_y;
+    public int attack_z;
+
     public float health;
 
     //Patroling
@@ -100,13 +105,33 @@ public class EnemyAI : MonoBehaviour
     private void AttackPlayer()
     {
         agent.SetDestination(transform.position);
-        transform.LookAt(player);
+
+        // Calculate the direction to the player
+        Vector3 directionToPlayer = (player.position - transform.position).normalized;
+
+        // Calculate the rotation to look towards the player's position, but only on the x and y axes
+        Quaternion targetRotation = Quaternion.LookRotation(new Vector3(directionToPlayer.x, 0f, directionToPlayer.z), Vector3.up);
+
+        // Apply the rotation to the enemy
+        transform.rotation = targetRotation;
+
+        // transform.LookAt(player);
         if (!alreadyAttacked)
         {
             //insert attack type here (shooting, sword, etc)
-            Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 6f, ForceMode.Impulse);
+
+            // Calculate the spawn position based on the offset values
+            Vector3 projectileSpawnPosition = transform.position + attack_x * transform.right + attack_y * transform.up + attack_z * transform.forward;
+
+            // Calculate the direction towards the player from the adjusted spawn position
+            Vector3 directionToPlayerAdjusted = (player.position - projectileSpawnPosition).normalized;
+
+            Rigidbody rb = Instantiate(projectile, projectileSpawnPosition, Quaternion.identity).GetComponent<Rigidbody>();
+            rb.velocity = directionToPlayerAdjusted * 16f;
+
+            // Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+            // rb.AddForce(transform.up * 6f, ForceMode.Impulse);
             //
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
