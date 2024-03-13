@@ -18,6 +18,10 @@ public class PlayerAttack : MonoBehaviour
 
     private bool canAttack;
     private bool canParry;
+
+    // Sounds
+    public AudioClip[] swings;
+    public AudioSource audioSource;
     
     // Start is called before the first frame update
     void Start()
@@ -48,6 +52,8 @@ public class PlayerAttack : MonoBehaviour
     {
         if(canAttack)
         {
+            // Play random swing sfx
+            audioSource.PlayOneShot(swings[Random.Range(0, 2)], 0.7f);
             canAttack = false;
             HitBox.SetActive(true);
             cooldownTextAttack.gameObject.SetActive(true);

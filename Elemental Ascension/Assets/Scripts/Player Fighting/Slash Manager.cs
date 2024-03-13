@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SlashManager : MonoBehaviour
 {
+    public AudioClip[] hits;
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class SlashManager : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             other.gameObject.GetComponent<EnemyAI>().TakeDamage(50);
+            audioSource.PlayOneShot(hits[Random.Range(0, 2)], 0.7f);
         }
     }
 }
