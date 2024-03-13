@@ -20,8 +20,8 @@ public class PlayerMovement : MonoBehaviour
     public Image dashCooldownBox;
     public TMP_Text cooldownTextDash;
     // public float dashCooldown;
-    bool readyToJump;
-    bool isDashing = false;
+    [HideInInspector] public bool readyToJump;
+    [HideInInspector] public bool isDashing = false;
 
     [HideInInspector] public float walkSpeed;
     [HideInInspector] public float sprintSpeed;
@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whatIsGround;
-    bool grounded;
+    [HideInInspector] public bool grounded;
     public Transform orientation;
     float horizontalInput;
     float verticalInput;
@@ -83,6 +83,7 @@ public class PlayerMovement : MonoBehaviour
             readyToJump = false;
 
             Jump();
+            Debug.Log("Jumped");
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }

@@ -52,6 +52,15 @@ public class GameManager : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
+            // Disable and re-enable player scripts
+            PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
+            if (playerMovement != null)
+            {
+                playerMovement.enabled = false;
+                playerMovement.enabled = true;
+                playerMovement.readyToJump = true;
+                playerMovement.grounded = true;
+            }
             if (scene.name == "1-1")
             {
                 Debug.Log("Loaded scene 1-1");
