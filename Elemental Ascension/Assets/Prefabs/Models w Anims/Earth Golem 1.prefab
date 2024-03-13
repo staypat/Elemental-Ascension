@@ -78,15 +78,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27c02fe2e2079a847a0d31282bced43d,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8403330778743836379}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27c02fe2e2079a847a0d31282bced43d,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 4380595284545908588}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27c02fe2e2079a847a0d31282bced43d,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3568418317436454320}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27c02fe2e2079a847a0d31282bced43d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5274394838152811601}
   m_SourcePrefab: {fileID: 100100000, guid: 27c02fe2e2079a847a0d31282bced43d, type: 3}
 --- !u!1 &4523304816709548240 stripped
 GameObject:
@@ -139,39 +139,6 @@ CapsuleCollider:
   m_Height: 8
   m_Direction: 1
   m_Center: {x: 0, y: 3, z: 0}
---- !u!114 &8403330778743836379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4523304816709548240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34ce92cd2e2a8194580b874f1298fb6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 8343968697991009764, guid: 7f21019dcd87fca42b8eeac778d264ed, type: 3}
-  player: {fileID: 0}
-  GroundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  PlayerLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  attack_x: 0
-  attack_y: 4
-  attack_z: 4
-  health: 100
-  walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 10
-  timeBetweenAttacks: 0.5
-  projectile: {fileID: 0}
-  sightRange: 20
-  attackRange: 10
-  playerInSightRange: 0
-  playerInAttackRange: 0
-  kiteDist: 0
 --- !u!195 &4380595284545908588
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -182,7 +149,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.5
-  m_Speed: 8
+  m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -221,3 +188,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-5274394838152811601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4523304816709548240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da05c29158625df44bab9d15b367efd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 0}
+  player: {fileID: 0}
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  attack_x: 0
+  attack_y: 0
+  attack_z: 0
+  health: 0
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 0
+  timeBetweenAttacks: 0
+  projectile: {fileID: 0}
+  sightRange: 0
+  attackRange: 0
+  playerInSightRange: 0
+  playerInAttackRange: 0
+  kiteDist: 0
