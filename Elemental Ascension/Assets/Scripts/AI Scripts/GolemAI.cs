@@ -196,10 +196,6 @@ public class GolemAI : MonoBehaviour
         health -= damage;
         if(health <= 0)
         {
-            if (this.name == "Griphon Boss(Clone)")
-            {
-                GameManager.level = 1;
-            }
             Invoke(nameof(DestroyEnemy), 0.5f);
         }
     }
