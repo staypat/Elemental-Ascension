@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ce92cd2e2a8194580b874f1298fb6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 8343968697991009764}
+  agent: {fileID: 0}
   player: {fileID: 0}
   GroundLayer:
     serializedVersion: 2
@@ -153,6 +153,9 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 128
+  attack_x: 0
+  attack_y: 0
+  attack_z: 0
   health: 100
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 10
@@ -163,3 +166,4 @@ MonoBehaviour:
   attackRange: 12
   playerInSightRange: 0
   playerInAttackRange: 0
+  kiteDist: 0
