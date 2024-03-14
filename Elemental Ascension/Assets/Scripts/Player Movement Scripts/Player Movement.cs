@@ -42,6 +42,9 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
+    [Header("Dash Clips")]
+    public AudioClip[] clips;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -143,6 +146,8 @@ public class PlayerMovement : MonoBehaviour
             cooldownTextDash.gameObject.SetActive(true);
             cooldownTextDash.text = dashCooldown.ToString();
 
+            // play dash sfx
+            this.GetComponent<AudioSource>().PlayOneShot(clips[Random.Range(0,3)], 0.7f);
 
             // Getting the camera's forward and right vectors
             Vector3 cameraForward = Camera.main.transform.forward;
