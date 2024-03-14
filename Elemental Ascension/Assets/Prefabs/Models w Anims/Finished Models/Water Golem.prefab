@@ -190,7 +190,7 @@ MonoBehaviour:
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 2
   timeBetweenAttacks: 4
-  projectile: {fileID: 1218787945132914364, guid: 374e4b2951ad6204ca60324ea163566c,
+  projectile: {fileID: 3148396033438294660, guid: 5c35e8211e6f253498e17b8613d67069,
     type: 3}
   sightRange: 20
   attackRange: 15
