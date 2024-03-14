@@ -64049,6 +64049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 300078499}
   portal: {fileID: 638130015}
+  textFlavor: It's dangerous to go alone! Take this.
 --- !u!1 &1097347840
 GameObject:
   m_ObjectHideFlags: 0

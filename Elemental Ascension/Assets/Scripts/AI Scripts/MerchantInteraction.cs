@@ -9,6 +9,7 @@ public class MerchantInteraction : MonoBehaviour
     private bool hasTriggered = false;
     public Subtitles text;
     public GameObject portal;
+    public string textFlavor;
     void Start()
     {
 
@@ -23,11 +24,11 @@ public class MerchantInteraction : MonoBehaviour
     {
         if (!hasTriggered && other.CompareTag("Player"))
         {
-            PlayerHealth.Instance.currentHealth += 20;
+            PlayerHealth.Instance.currentHealth += 35;
             portal.SetActive(true);
             hasTriggered = true;
             UpdateHealthUIText();
-            text.ShowSubtitle("It's dangerous to go alone! Take this.");
+            text.ShowSubtitle(textFlavor);
             StartCoroutine(HideSubtitles());
         }
     }

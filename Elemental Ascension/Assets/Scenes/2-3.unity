@@ -74847,6 +74847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1403503995}
   portal: {fileID: 1340554198}
+  textFlavor: You're still here? Keep going!
 --- !u!65 &1531173890
 BoxCollider:
   m_ObjectHideFlags: 0
