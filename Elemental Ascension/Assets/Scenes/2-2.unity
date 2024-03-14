@@ -2222,12 +2222,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 6886739437615595334, guid: da8470440ceea614c9c2e1e343c1c6e4, type: 3}
   - {fileID: 1556956831422141955, guid: 216e316d9bd420d43bff4c157dd095df, type: 3}
-  spawnRate: 5
+  - {fileID: 1556956831422141955, guid: 216e316d9bd420d43bff4c157dd095df, type: 3}
+  spawnRate: 3
   spawnRadius: 2
-  poolSize: 2
-  maxEnemies: 2
+  poolSize: 4
+  maxEnemies: 4
 --- !u!4 &337628536
 Transform:
   m_ObjectHideFlags: 0
@@ -2237,7 +2237,7 @@ Transform:
   m_GameObject: {fileID: 337628534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1.19, y: 43.21, z: 5.07}
+  m_LocalPosition: {x: 0.16, y: 43.21, z: 1.291}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6061,8 +6061,8 @@ MonoBehaviour:
   - {fileID: 1556956831422141955, guid: 216e316d9bd420d43bff4c157dd095df, type: 3}
   spawnRate: 5
   spawnRadius: 2
-  poolSize: 4
-  maxEnemies: 4
+  poolSize: 2
+  maxEnemies: 2
 --- !u!4 &896821280
 Transform:
   m_ObjectHideFlags: 0
