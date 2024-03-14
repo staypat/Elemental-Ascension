@@ -448,6 +448,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 156112926}
   player: {fileID: 501171181}
+--- !u!95 &156112929
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156112925}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c079c841bfdbef5448269aebedfe3063, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &170957214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3478,6 +3500,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  grounded: 0
   orientation: {fileID: 343657481}
 --- !u!54 &501171187
 Rigidbody:
@@ -4727,7 +4750,7 @@ PrefabInstance:
     - target: {fileID: 1605940603269084451, guid: 3a7a0edd4d2954240b0f53aa580914f8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.463912
+      value: -9.45
       objectReference: {fileID: 0}
     - target: {fileID: 1605940603269084451, guid: 3a7a0edd4d2954240b0f53aa580914f8,
         type: 3}
@@ -4776,6 +4799,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 156112926}
+    - targetCorrespondingSourceObject: {fileID: 851187772864135272, guid: 3a7a0edd4d2954240b0f53aa580914f8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 156112929}
   m_SourcePrefab: {fileID: 100100000, guid: 3a7a0edd4d2954240b0f53aa580914f8, type: 3}
 --- !u!1 &832575517
 GameObject:
