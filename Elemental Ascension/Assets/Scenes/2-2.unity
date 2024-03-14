@@ -2222,12 +2222,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 1556956831422141955, guid: 216e316d9bd420d43bff4c157dd095df, type: 3}
   - {fileID: 6886739437615595334, guid: da8470440ceea614c9c2e1e343c1c6e4, type: 3}
+  - {fileID: 1556956831422141955, guid: 216e316d9bd420d43bff4c157dd095df, type: 3}
   spawnRate: 5
   spawnRadius: 6
   poolSize: 2
-  maxEnemies: 4
+  maxEnemies: 2
 --- !u!4 &337628536
 Transform:
   m_ObjectHideFlags: 0
@@ -6061,8 +6061,8 @@ MonoBehaviour:
   - {fileID: 1556956831422141955, guid: 216e316d9bd420d43bff4c157dd095df, type: 3}
   spawnRate: 5
   spawnRadius: 6
-  poolSize: 3
-  maxEnemies: 5
+  poolSize: 4
+  maxEnemies: 4
 --- !u!4 &896821280
 Transform:
   m_ObjectHideFlags: 0
@@ -7497,7 +7497,7 @@ MonoBehaviour:
   spawnRate: 5
   spawnRadius: 6
   poolSize: 2
-  maxEnemies: 3
+  maxEnemies: 2
 --- !u!1 &1071259276
 GameObject:
   m_ObjectHideFlags: 0
