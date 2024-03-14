@@ -3783,7 +3783,7 @@ Transform:
   m_GameObject: {fileID: 1023574145}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.27, y: 3.55, z: 22.07}
+  m_LocalPosition: {x: 2.05, y: 2.34, z: 22.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4569,6 +4569,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1095734185}
+  - component: {fileID: 1095734186}
+  - component: {fileID: 1095734187}
   m_Layer: 0
   m_Name: Merchant Stall
   m_TagString: Untagged
@@ -4601,6 +4603,39 @@ Transform:
   - {fileID: 1209629526}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1095734186
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095734184}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.42, y: 3.22, z: 3.52}
+  m_Center: {x: -5.03, y: 4.71, z: -14.06}
+--- !u!114 &1095734187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095734184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55dc59e2b28e3ab4593c5e5feb5da672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1196546760
 PrefabInstance:
   m_ObjectHideFlags: 0
