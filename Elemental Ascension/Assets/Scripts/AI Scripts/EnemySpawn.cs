@@ -9,10 +9,10 @@ public class EnemySpawn : MonoBehaviour
     public float spawnRate = 5.0f;
     public float spawnRadius = 5.0f;
     public int poolSize = 2;
-    public int maxEnemies = 10;
+    public int maxEnemies = 3;
     private List<GameObject> enemyPool = new List<GameObject>();
     private float spawnTimer = 0f;
-    public int enemiesKilled = 0;
+    private int enemiesSpawned = 0;
     void Start()
     {
         // pooling
@@ -30,7 +30,7 @@ public class EnemySpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (enemiesKilled >= maxEnemies)
+        if (enemiesSpawned >= maxEnemies)
         {
             // stops spawning if player killed enough enemies
             return;
@@ -51,12 +51,9 @@ public class EnemySpawn : MonoBehaviour
             {
                 enemy.transform.position = transform.position + Random.insideUnitSphere * spawnRadius;
                 enemy.SetActive(true);
+                enemiesSpawned++;
                 return;
             }
         }
-    }
-    public void EnemyKilled()
-    {
-        enemiesKilled++;
     }
 }
