@@ -141,7 +141,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 98d3137694bd6d344bd4047ad0b89d54,
         type: 3}
       propertyPath: m_Name
-      value: hellhound 2
+      value: Hellhound
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 98d3137694bd6d344bd4047ad0b89d54,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2042709290117977785, guid: 98d3137694bd6d344bd4047ad0b89d54,
         type: 3}
@@ -297,10 +302,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98d3137694bd6d344bd4047ad0b89d54,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5869805641779031105}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98d3137694bd6d344bd4047ad0b89d54,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 4391762981433080029}
   m_SourcePrefab: {fileID: 100100000, guid: 98d3137694bd6d344bd4047ad0b89d54, type: 3}
 --- !u!1 &2113462537607919662 stripped
@@ -374,33 +375,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &5869805641779031105
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2113462537607919662}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &4391762981433080029
 MonoBehaviour:
   m_ObjectHideFlags: 0

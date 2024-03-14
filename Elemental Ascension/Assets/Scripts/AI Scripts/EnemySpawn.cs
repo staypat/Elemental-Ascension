@@ -55,7 +55,7 @@ public class EnemySpawn : MonoBehaviour
             }
         }
     }
-    public void EnemyKilled() // requires enemy scripts to have a reference call to this class
+    public void EnemyKilled()
     {
         enemiesKilled++;
     }
