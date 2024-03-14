@@ -2033,7 +2033,7 @@ GameObject:
   - component: {fileID: 496381984}
   - component: {fileID: 496381989}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Teleporter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
