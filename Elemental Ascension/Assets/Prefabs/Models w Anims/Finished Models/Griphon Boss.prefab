@@ -210,3 +210,5 @@ MonoBehaviour:
   playerInSightRange: 0
   playerInAttackRange: 0
   kiteDist: 0
+  attacks:
+  - {fileID: 8300000, guid: 7aa5ec42dc718e74fad24045540b2d27, type: 3}

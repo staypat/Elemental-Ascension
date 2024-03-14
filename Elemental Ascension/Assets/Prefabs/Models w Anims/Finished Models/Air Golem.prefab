@@ -61,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 895ab3a9f459ada458c91eabddcf1e9d,
         type: 3}
       propertyPath: m_Name
-      value: Air Golem 1
+      value: Air Golem
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 895ab3a9f459ada458c91eabddcf1e9d,
         type: 3}
@@ -197,3 +197,5 @@ MonoBehaviour:
   playerInSightRange: 0
   playerInAttackRange: 0
   kiteDist: 0
+  attacks:
+  - {fileID: 8300000, guid: 76ccf628404201942b403e1bacf0dc17, type: 3}

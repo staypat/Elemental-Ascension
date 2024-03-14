@@ -163,11 +163,7 @@ public class GolemAI : MonoBehaviour
         animator.SetTrigger("Attack");
 
         // Play sfx based on name
-
-        if (this.name == "Griphon(Clone)")
-        {
             this.gameObject.GetComponent<AudioSource>().PlayOneShot(attacks[0]);
-        }
 
         yield return new WaitForSeconds(1f);
 
