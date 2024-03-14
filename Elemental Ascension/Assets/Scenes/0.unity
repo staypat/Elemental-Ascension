@@ -17847,6 +17847,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Earth Golem
       objectReference: {fileID: 0}
+    - target: {fileID: 4523304816709548240, guid: 44ffc82aceb29994bba659d0497e3c64,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8403330778743836379, guid: 44ffc82aceb29994bba659d0497e3c64,
         type: 3}
       propertyPath: player
