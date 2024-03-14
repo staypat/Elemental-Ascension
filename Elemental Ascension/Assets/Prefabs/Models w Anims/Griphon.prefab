@@ -63,6 +63,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Griphon
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23e10317221ea914bbe6f204ff1725c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -79,6 +84,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: -3511024098105840746}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23e10317221ea914bbe6f204ff1725c6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8507908952444557502}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23e10317221ea914bbe6f204ff1725c6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5683576093075288346}
   m_SourcePrefab: {fileID: 100100000, guid: 23e10317221ea914bbe6f204ff1725c6, type: 3}
 --- !u!1 &7955726594527682067 stripped
 GameObject:
@@ -156,3 +169,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-8507908952444557502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7955726594527682067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce92cd2e2a8194580b874f1298fb6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 0}
+  player: {fileID: 0}
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  attack_x: 0
+  attack_y: 4
+  attack_z: 3
+  health: 50
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 2
+  timeBetweenAttacks: 4
+  projectile: {fileID: 1355088601986346438, guid: 6e7b97813606dc7408fb617290bede06,
+    type: 3}
+  sightRange: 20
+  attackRange: 15
+  playerInSightRange: 0
+  playerInAttackRange: 0
+  kiteDist: 0
+--- !u!195 &-5683576093075288346
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7955726594527682067}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
