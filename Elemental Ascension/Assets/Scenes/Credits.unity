@@ -315,6 +315,30 @@ MonoBehaviour:
   m_text: 'Credits:
 
 
+    Game created by: Patrick, Frank, Edwin, Brady, Jackie
+
+
+    Art,
+    Music and Juice Assets acquired from Unity Asset store:
+
+
+    Low-Poly Simple
+    Nature Pack - JustCreate
+
+    Low-Poly Dungeons Lit - JustCreate
+
+    Low-Poly
+    Medieval Market - VanillaArt
+
+    Customizable skybox - KeyMouse
+
+    Simple
+    Water Shader - IgniteCoders
+
+
+
+
+
 
 '
   m_isRightToLeft: 0
@@ -343,8 +367,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
