@@ -683,7 +683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabs:
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
-  - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
+  - {fileID: 966286743870302314, guid: a9e755d8cfdbff7419b1694b24139cd9, type: 3}
   spawnRate: 5
   spawnRadius: 6
   poolSize: 3
@@ -2208,7 +2208,7 @@ Transform:
   m_GameObject: {fileID: 1075212276}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.87, y: 40.83, z: -22.59}
+  m_LocalPosition: {x: 4.41, y: 40.83, z: -20.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2246,7 +2246,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 8.256191, y: 1, z: 5.390259}
+  m_Size: {x: 25.6, y: 1, z: 10.8}
   m_Center: {x: -0.31617832, y: 0, z: -0.15430832}
 --- !u!1001 &1090244441
 PrefabInstance:
@@ -4463,6 +4463,7 @@ GameObject:
   - component: {fileID: 1500296709}
   - component: {fileID: 1500296708}
   - component: {fileID: 1500296707}
+  - component: {fileID: 1500296710}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4538,12 +4539,56 @@ Transform:
   m_GameObject: {fileID: 1500296706}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 3.93, z: -12.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1500296710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500296706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &1596492354
 GameObject:
   m_ObjectHideFlags: 0
@@ -4571,7 +4616,7 @@ Transform:
   m_GameObject: {fileID: 1596492354}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -1.3499999, y: 2.7420006, z: -23.221401}
+  m_LocalPosition: {x: 4.03, y: 2.7420006, z: -21.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4609,7 +4654,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 8.256191, y: 1, z: 5.390259}
+  m_Size: {x: 25.6, y: 1, z: 10.8}
   m_Center: {x: -0.31617832, y: 0, z: -0.15430832}
 --- !u!1001 &1602929029
 PrefabInstance:
@@ -5125,8 +5170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
-  - {fileID: 5938279669372769156, guid: 90bc08b49ce3f724aaf37b0dd9823c58, type: 3}
+  - {fileID: 966286743870302314, guid: a9e755d8cfdbff7419b1694b24139cd9, type: 3}
+  - {fileID: 3091671421484586467, guid: 2fced361a2d2ebf4198a4b6a59a03e43, type: 3}
   spawnRate: 5
   spawnRadius: 6
   poolSize: 2
@@ -5308,7 +5353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
+  - {fileID: 966286743870302314, guid: a9e755d8cfdbff7419b1694b24139cd9, type: 3}
   spawnRate: 5
   spawnRadius: 6
   poolSize: 2
@@ -5547,6 +5592,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1500296709}
   - {fileID: 1908023580}
+  - {fileID: 1021984002}
   - {fileID: 1982690699}
   - {fileID: 1267264999}
   - {fileID: 1712196339}
@@ -5555,5 +5601,4 @@ SceneRoots:
   - {fileID: 1090244441}
   - {fileID: 1799057801}
   - {fileID: 292989165}
-  - {fileID: 1021984002}
   - {fileID: 574550096}
