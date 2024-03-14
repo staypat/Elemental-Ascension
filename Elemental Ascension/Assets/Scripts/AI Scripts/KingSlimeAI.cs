@@ -35,6 +35,9 @@ public class KingSlimeAI : MonoBehaviour
     public bool playerInSightRange;
     public bool playerInAttackRange;
 
+    // Audio Clips
+    public AudioClip attack;
+
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
@@ -127,6 +130,8 @@ public class KingSlimeAI : MonoBehaviour
 
         if (!alreadyAttacked)
         {
+            // Play Sfx
+            this.GetComponent<AudioSource>().PlayOneShot(attack, .7f);
             //Attack Code----
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
 
