@@ -39,13 +39,9 @@ public class GolemAI : MonoBehaviour
 
     //Kiting
     public float kiteDist;
-
-    public GameObject spawner;
-    private EnemySpawn enemySpawn;
     void Start()
     {
         animator = GetComponent<Animator>();
-        enemySpawn = spawner.GetComponent<EnemySpawn>();
     }
 
     // Update is called once per frame
@@ -198,7 +194,6 @@ public class GolemAI : MonoBehaviour
     }
     public void DestroyEnemy()
     {
-        enemySpawn.EnemyKilled();
         this.gameObject.SetActive(false);
     }
 
