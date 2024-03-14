@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ParryManager : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip clip;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class ParryManager : MonoBehaviour
         if (other.gameObject.tag == "Bullet")
         {
             other.gameObject.GetComponent<Rigidbody>().velocity = other.gameObject.GetComponent<Rigidbody>().velocity * -1;
+            audioSource.PlayOneShot(clip, 1.0f);
         }
     }
 }
