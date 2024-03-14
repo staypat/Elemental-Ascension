@@ -38957,7 +38957,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676496424}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1676496426
 Camera:
   m_ObjectHideFlags: 0
@@ -42227,6 +42227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096e4718bcbac724cac2cccefdb90a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleport: {fileID: 8300000, guid: dfe4d15b0e6f5144b88fe612dfb7b57f, type: 3}
   sceneName: 1-2
 --- !u!199 &1970260890
 ParticleSystemRenderer:

@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+    public AudioClip teleport;
     [SerializeField] private string sceneName;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -29,6 +30,7 @@ public class SceneChanger : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            other.gameObject.GetComponent<AudioSource>().PlayOneShot(teleport, 0.7f);
             GoToScene(sceneName);
         }
     }

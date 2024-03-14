@@ -39,6 +39,9 @@ public class GolemAI : MonoBehaviour
 
     //Kiting
     public float kiteDist;
+
+    //sfx
+    public AudioClip[] attacks;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -158,6 +161,14 @@ public class GolemAI : MonoBehaviour
     {
         animator.SetBool("IsAttacking", true);
         animator.SetTrigger("Attack");
+
+        // Play sfx based on name
+
+        if (this.name == "Griphon(Clone)")
+        {
+            this.gameObject.GetComponent<AudioSource>().PlayOneShot(attacks[0]);
+        }
+
         yield return new WaitForSeconds(1f);
 
         // Insert attack logic here (e.g., spawning projectiles)
