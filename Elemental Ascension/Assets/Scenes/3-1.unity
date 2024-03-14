@@ -2011,13 +2011,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573841161}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 216.8, y: 27.53, z: 123.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!114 &573841165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2392,7 +2392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleport: {fileID: 8300000, guid: dfe4d15b0e6f5144b88fe612dfb7b57f, type: 3}
-  sceneName: 1-2
+  sceneName: 3-2
 --- !u!199 &629328308
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -26848,7 +26848,7 @@ Transform:
   m_GameObject: {fileID: 1656200173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.691513, z: 0, w: 0.72236407}
-  m_LocalPosition: {x: 153.3, y: 27.51, z: 107.96}
+  m_LocalPosition: {x: 153.3, y: 25.5, z: 107.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
