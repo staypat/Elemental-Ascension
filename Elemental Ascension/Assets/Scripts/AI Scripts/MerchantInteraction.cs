@@ -7,6 +7,7 @@ public class MerchantInteraction : MonoBehaviour
 {
     // Start is called before the first frame update
     private bool hasTriggered = false;
+    public Subtitles text;
     void Start()
     {
 
@@ -23,6 +24,8 @@ public class MerchantInteraction : MonoBehaviour
         {
             PlayerHealth.Instance.currentHealth += 20;
             UpdateHealthUIText();
+            text.ShowSubtitle("It's dangerous to go alone! Take this.");
+            StartCoroutine(HideSubtitles());
             hasTriggered = true;
         }
     }
@@ -41,5 +44,10 @@ public class MerchantInteraction : MonoBehaviour
                 healthText.text = PlayerHealth.Instance.currentHealth.ToString() + "/" + PlayerHealth.Instance.maxHealth.ToString();
             }
         }
+    }
+    IEnumerator HideSubtitles()
+    {
+        yield return new WaitForSeconds(2f);
+        text.HideSubtitle();
     }
 }
