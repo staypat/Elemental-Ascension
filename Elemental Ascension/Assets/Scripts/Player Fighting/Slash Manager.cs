@@ -21,7 +21,23 @@ public class SlashManager : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            other.gameObject.GetComponent<EnemyAI>().TakeDamage(50);
+            EnemyAI enemyAI = other.GetComponent<EnemyAI>();
+            if (enemyAI != null)
+            {
+                enemyAI.TakeDamage(50);
+            }
+            else
+            {
+                GolemAI golemAI = other.GetComponent<GolemAI>();
+                if (golemAI != null)
+                {
+                    golemAI.TakeDamage(50);
+                }
+                else
+                {
+                    Debug.Log("Make sure the AI script is used!");
+                }
+            }
             audioSource.PlayOneShot(hits[Random.Range(0, 2)], 0.7f);
         }
     }

@@ -18,6 +18,8 @@ public class PlayerAttack : MonoBehaviour
 
     private bool canAttack;
     private bool canParry;
+    public bool Attacking;
+    public bool Parrying;
 
     // Sounds
     public AudioClip[] swings;
@@ -52,6 +54,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if(canAttack)
         {
+            Attacking = true;
             // Play random swing sfx
             audioSource.PlayOneShot(swings[Random.Range(0, 2)], 0.7f);
             canAttack = false;
@@ -76,6 +79,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (canParry)
         {
+            Parrying = true;
             canParry = false;
             ParryHitbox.SetActive(true);
             yield return new WaitForSeconds(1.0f);
