@@ -105,6 +105,10 @@ public class GameManager : MonoBehaviour
             {
                 player.transform.position = new Vector3(97, 3, 56);
             }
+            else if (scene.name == "4-2")
+            {
+                player.transform.position = new Vector3(0, 2, -10);
+            }
         }
     }
     public void EnemyKilled()
