@@ -35,5 +35,6 @@ public class AirTowerManager : MonoBehaviour
     public void SpawnPortal()
     {
         portal.SetActive(true);
+        on = true;
     }
 }

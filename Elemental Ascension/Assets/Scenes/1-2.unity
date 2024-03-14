@@ -2012,7 +2012,7 @@ MonoBehaviour:
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
   spawnRate: 5
   spawnRadius: 2
-  poolSize: 2
+  poolSize: 1
   maxEnemies: 2
 --- !u!4 &337628536
 Transform:
@@ -6275,7 +6275,7 @@ MonoBehaviour:
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
   spawnRate: 5
   spawnRadius: 2
-  poolSize: 4
+  poolSize: 2
   maxEnemies: 4
 --- !u!4 &896821280
 Transform:
