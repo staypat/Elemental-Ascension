@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     private static PlayerHealth _instance;
     public static PlayerHealth Instance { get { return _instance; } }
-    public int maxHealth = 30;
+    public int maxHealth = 100;
     public int currentHealth;
     public TMP_Text healthText;
 
@@ -49,7 +49,6 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth <= 0)
         {
             Cursor.lockState = CursorLockMode.None;
-            GameManager.Instance.ToggleGameActive(false);
             SceneManager.LoadScene("Game Over");
         }
     }
