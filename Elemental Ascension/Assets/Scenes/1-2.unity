@@ -2011,7 +2011,7 @@ MonoBehaviour:
   - {fileID: 5938279669372769156, guid: 90bc08b49ce3f724aaf37b0dd9823c58, type: 3}
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
   spawnRate: 5
-  spawnRadius: 6
+  spawnRadius: 2
   poolSize: 2
   maxEnemies: 2
 --- !u!4 &337628536
@@ -6274,7 +6274,7 @@ MonoBehaviour:
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
   spawnRate: 5
-  spawnRadius: 6
+  spawnRadius: 2
   poolSize: 4
   maxEnemies: 4
 --- !u!4 &896821280
@@ -7396,7 +7396,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
   spawnRate: 5
-  spawnRadius: 6
+  spawnRadius: 2
   poolSize: 2
   maxEnemies: 2
 --- !u!1 &1071259276
