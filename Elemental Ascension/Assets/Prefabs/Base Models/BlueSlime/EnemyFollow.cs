@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class slimeAI : MonoBehaviour
+public class EnemyFollow : MonoBehaviour
 {
-    //reserved for later if we want to use this for the slime mob
 
-    public NavMeshAgent agent;
-    public GameObject player;
+    public NavMeshAgent enemy;
+    public Transform Player;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +18,7 @@ public class slimeAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(player.transform.position);
+        enemy.SetDestination(Player.position);
+        
     }
 }
