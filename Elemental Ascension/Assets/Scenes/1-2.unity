@@ -3679,6 +3679,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1814205439}
+    - target: {fileID: 1258015259910142443, guid: 5c2451b70caf8dd4ab631d0d894418a0,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1448824452128538750, guid: 5c2451b70caf8dd4ab631d0d894418a0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3842,7 +3847,7 @@ PrefabInstance:
     - target: {fileID: 5960485645247159534, guid: 5c2451b70caf8dd4ab631d0d894418a0,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6946059924325064461, guid: 5c2451b70caf8dd4ab631d0d894418a0,
         type: 3}
