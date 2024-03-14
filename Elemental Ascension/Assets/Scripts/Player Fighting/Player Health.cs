@@ -48,6 +48,8 @@ public class PlayerHealth : MonoBehaviour
 
         if(currentHealth <= 0)
         {
+            Cursor.lockState = CursorLockMode.None;
+            GameManager.Instance.ToggleGameActive(false);
             SceneManager.LoadScene("Game Over");
         }
     }

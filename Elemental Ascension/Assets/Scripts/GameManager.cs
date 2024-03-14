@@ -10,11 +10,15 @@ public class GameManager : MonoBehaviour
     public int playerHP;
     public int enemiesKilled;
     public int enemiesToNextLevel = 8;
+    public GameObject uiObject;
+    public GameObject playerObject;
+    private bool gameActive = true;
 
     public static GameManager Instance { get { return _instance; } }
     // Start is called before the first frame update
     void Start()
     {
+        DeactivateObjects();
         level = 0;
         enemiesKilled = 0;
     }
@@ -108,6 +112,9 @@ public class GameManager : MonoBehaviour
             else if (scene.name == "4-2")
             {
                 player.transform.position = new Vector3(0, 2, -10);
+            }else if (scene.name == "0")
+            {
+                player.transform.position = new Vector3(-8, 1, -13);
             }
         }
     }
@@ -122,5 +129,43 @@ public class GameManager : MonoBehaviour
     void LevelUp()
     {
         level++;
+    }
+    void DeactivateObjects()
+    {
+        if (uiObject != null)
+            uiObject.SetActive(false);
+
+        if (playerObject != null)
+            playerObject.SetActive(false);
+    }
+    void ActivateObjects()
+    {
+        if (uiObject != null)
+            uiObject.SetActive(true);
+
+        if (playerObject != null)
+            playerObject.SetActive(true);
+    }
+    public void ToggleGameActive(bool active)
+    {
+        gameActive = active;
+        if (gameActive)
+        {
+            ActivateObjects();
+        }
+        else
+        {
+            DeactivateObjects();
+        }
+    }
+    public void LoadGameOverScene()
+    {
+        ToggleGameActive(false);
+        SceneManager.LoadScene("Game Over");
+    }
+    public void RestartGame()
+    {
+        ToggleGameActive(true);
+        SceneManager.LoadScene("0");
     }
 }
