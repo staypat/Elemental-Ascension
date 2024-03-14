@@ -3428,6 +3428,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6121018136438876866, guid: e0e7a94376533324b88148e6b4899f91,
+        type: 3}
+      propertyPath: enemySpawn
+      value: 
+      objectReference: {fileID: 1058945218}
     - target: {fileID: 8120144005894882612, guid: e0e7a94376533324b88148e6b4899f91,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -7,6 +8,7 @@ public class GolemAI : MonoBehaviour
 {
     // Start is called before the first frame update
     //Script written from tutorial: https://www.youtube.com/watch?v=UjkSFoLxesw
+    public GameObject spawner;
     public NavMeshAgent agent;
     public Transform player;
     public Animator animator;
@@ -39,9 +41,13 @@ public class GolemAI : MonoBehaviour
     //Kiting
     public float kiteDist;
 
+    //reference for killed enemies
+    private EnemySpawn enemySpawn;
+
     void Start()
     {
         animator = GetComponent<Animator>();
+        enemySpawn = spawner.GetComponent<EnemySpawn>();
     }
 
     // Update is called once per frame
@@ -192,9 +198,10 @@ public class GolemAI : MonoBehaviour
             Invoke(nameof(DestroyEnemy), 0.5f);
         }
     }
-    private void DestroyEnemy()
+    public void DestroyEnemy()
     {
-        Destroy(gameObject);
+        this.gameObject.SetActive(false);
+        enemySpawn.EnemyKilled();
     }
 
     //Visualizing attack and sight range
