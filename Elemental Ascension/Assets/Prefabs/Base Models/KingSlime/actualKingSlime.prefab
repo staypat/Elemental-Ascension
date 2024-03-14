@@ -76,10 +76,112 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 90f8ec9a2f84e8744a82680118fced98,
         type: 3}
       propertyPath: m_Name
-      value: kingslime
+      value: actualKingSlime
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 90f8ec9a2f84e8744a82680118fced98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90f8ec9a2f84e8744a82680118fced98,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2708234448760337369}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90f8ec9a2f84e8744a82680118fced98,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1647261062297024196}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90f8ec9a2f84e8744a82680118fced98,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1488491017970070268}
   m_SourcePrefab: {fileID: 100100000, guid: 90f8ec9a2f84e8744a82680118fced98, type: 3}
+--- !u!1 &3091671421484586467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 90f8ec9a2f84e8744a82680118fced98,
+    type: 3}
+  m_PrefabInstance: {fileID: 2749090329542912178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &-2708234448760337369
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091671421484586467}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!195 &1647261062297024196
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091671421484586467}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1488491017970070268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091671421484586467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da05c29158625df44bab9d15b367efd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 0}
+  player: {fileID: 0}
+  animator: {fileID: 0}
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  attack_x: 0
+  attack_y: 0
+  attack_z: 0
+  health: 0
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 0
+  timeBetweenAttacks: 0
+  projectile: {fileID: 5760025178504924380, guid: 4d023c5da9f02c340bb7dca718aa6834,
+    type: 3}
+  sightRange: 12
+  attackRange: 5
+  playerInSightRange: 0
+  playerInAttackRange: 0
+  kiteDist: 0
+  attacks: []
