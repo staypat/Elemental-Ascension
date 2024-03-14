@@ -24,18 +24,18 @@ public class StairsMovement : MonoBehaviour
     {
         stepClimb();
     }
-    private void Awake()
+    private void Awake()    
     {
         stepRayUpper.transform.position = new Vector3(stepRayUpper.transform.position.x, stepHeight, stepRayUpper.transform.position.z);
     }
     void stepClimb()
     {
         RaycastHit hitLower;
-        if(Physics.Raycast(stepRayLower.transform.position, transform.TransformDirection(Vector3.forward), out hitLower, 0.5f))
+        if(Physics.Raycast(stepRayLower.transform.position, transform.TransformDirection(Vector3.forward), out hitLower, 0.1f))
         {
             Debug.DrawRay(stepRayLower.transform.position, transform.TransformDirection(Vector3.forward) * hitLower.distance, Color.green);
-            RaycastHit hitUpper;
-            if(!Physics.Raycast(stepRayUpper.transform.position, transform.TransformDirection(Vector3.forward), out hitUpper, 1f))
+            RaycastHit hitUpper;    
+            if(!Physics.Raycast(stepRayUpper.transform.position, transform.TransformDirection(Vector3.forward), out hitUpper, 0.2f))
             {
                 rigidBody.position -= new Vector3(0f, -stepSmooth, 0f);
             }
