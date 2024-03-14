@@ -130,29 +130,50 @@ public class GolemAI : MonoBehaviour
         // transform.LookAt(player);
         if (!alreadyAttacked)
         {
-            animator.SetBool("IsAttacking", true);
-            animator.SetTrigger("Attack");
-
-            //insert attack type here (shooting, sword, etc)
-
-            // Calculate the spawn position based on the offset values
-            Vector3 projectileSpawnPosition = transform.position + attack_x * transform.right + attack_y * transform.up + attack_z * transform.forward;
-
-            // Calculate the direction towards the player from the adjusted spawn position
-            Vector3 directionToPlayerAdjusted = (player.position - projectileSpawnPosition).normalized;
-
-            Rigidbody rb = Instantiate(projectile, projectileSpawnPosition, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.velocity = directionToPlayerAdjusted * 32f;
-
-            // Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            // rb.AddForce(transform.up * 6f, ForceMode.Impulse);
-            //
-            alreadyAttacked = true;
-            animator.SetBool("IsAttacking", false);
+            StartCoroutine(AttackCoroutine());
+            //animator.SetBool("IsAttacking", true);
             //animator.SetTrigger("Attack");
+
+            ////insert attack type here (shooting, sword, etc)
+
+            //// Calculate the spawn position based on the offset values
+            //Vector3 projectileSpawnPosition = transform.position + attack_x * transform.right + attack_y * transform.up + attack_z * transform.forward;
+
+            //// Calculate the direction towards the player from the adjusted spawn position
+            //Vector3 directionToPlayerAdjusted = (player.position - projectileSpawnPosition).normalized;
+
+            //Rigidbody rb = Instantiate(projectile, projectileSpawnPosition, Quaternion.identity).GetComponent<Rigidbody>();
+            //rb.velocity = directionToPlayerAdjusted * 32f;
+
+            //// Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            //// rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+            //// rb.AddForce(transform.up * 6f, ForceMode.Impulse);
+            ////
+            alreadyAttacked = true;
+            ////animator.SetTrigger("Attack");
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
+    }
+    private IEnumerator AttackCoroutine()
+    {
+        animator.SetBool("IsAttacking", true);
+        animator.SetTrigger("Attack");
+        yield return new WaitForSeconds(1f);
+
+        // Insert attack logic here (e.g., spawning projectiles)
+
+        // Calculate the spawn position based on the offset values
+        Vector3 projectileSpawnPosition = transform.position + attack_x * transform.right + attack_y * transform.up + attack_z * transform.forward;
+
+        // Calculate the direction towards the player from the adjusted spawn position
+        Vector3 directionToPlayerAdjusted = (player.position - projectileSpawnPosition).normalized;
+
+        // Spawn and shoot the projectile
+        Rigidbody rb = Instantiate(projectile, projectileSpawnPosition, Quaternion.identity).GetComponent<Rigidbody>();
+        rb.velocity = directionToPlayerAdjusted * 32f;
+
+        // Reset attack animation
+        animator.SetBool("IsAttacking", false);
     }
     private void KitePlayer()
     {
