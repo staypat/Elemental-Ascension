@@ -34,18 +34,8 @@ public class StairsMovement : MonoBehaviour
         if(Physics.Raycast(stepRayLower.transform.position, transform.TransformDirection(Vector3.forward), out hitLower, 0.1f))
         {
             Debug.DrawRay(stepRayLower.transform.position, transform.TransformDirection(Vector3.forward) * hitLower.distance, Color.green);
-<<<<<<< Updated upstream
             RaycastHit hitUpper;    
             if(!Physics.Raycast(stepRayUpper.transform.position, transform.TransformDirection(Vector3.forward), out hitUpper, 0.2f))
-=======
-<<<<<<< HEAD
-            RaycastHit hitUpper;
-            if(!Physics.Raycast(stepRayUpper.transform.position, transform.TransformDirection(Vector3.forward), out hitUpper, 0.5f))
-=======
-            RaycastHit hitUpper;    
-            if(!Physics.Raycast(stepRayUpper.transform.position, transform.TransformDirection(Vector3.forward), out hitUpper, 0.2f))
->>>>>>> 286b4824f412bd4cd14f6640cefdba5787fad242
->>>>>>> Stashed changes
             {
                 rigidBody.position -= new Vector3(0f, -stepSmooth, 0f);
             }
