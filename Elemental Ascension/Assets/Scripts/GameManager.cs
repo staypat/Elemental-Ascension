@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public static int level;
     public int playerHP;
     public int enemiesKilled;
-    public int enemiesToNextLevel = 12;
+    public int enemiesToNextLevel = 8;
 
     public static GameManager Instance { get { return _instance; } }
     // Start is called before the first frame update
