@@ -13,7 +13,6 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 30;
     public int currentHealth;
     public TMP_Text healthText;
-    public TMP_Text GameOverText;
 
     // player hit sfx
     public AudioClip[] hits;
