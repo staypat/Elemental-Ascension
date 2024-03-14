@@ -78,10 +78,29 @@ public class GameManager : MonoBehaviour
             else if (scene.name == "2-1")
             {
                 player.transform.position = new Vector3(141, 20, 81);
+            }else if (scene.name == "2-2")
+            {
+                player.transform.position = new Vector3(4, 4, -12);
+            }
+            else if (scene.name == "2-3")
+            {
+                player.transform.position = new Vector3(0, 4, -12);
             }
             else if (scene.name == "3-1")
             {
                 player.transform.position = new Vector3(216, 27, 123);
+            }
+            else if (scene.name == "3-2")
+            {
+                player.transform.position = new Vector3(4, 2, -16);
+            }
+            else if (scene.name == "3-3")
+            {
+                player.transform.position = new Vector3(0, 4, -12);
+            }
+            else if (scene.name == "4-1")
+            {
+                player.transform.position = new Vector3(0, 4, -12);
             }
         }
     }
