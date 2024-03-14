@@ -6893,7 +6893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleport: {fileID: 0}
-  sceneName: 3-1
+  sceneName: 2-1
 --- !u!65 &1093118397
 BoxCollider:
   m_ObjectHideFlags: 0
