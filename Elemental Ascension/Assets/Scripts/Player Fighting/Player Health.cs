@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -48,7 +49,7 @@ public class PlayerHealth : MonoBehaviour
 
         if(currentHealth <= 0)
         {
-            GameOverText.gameObject.SetActive(true);
+            SceneManager.LoadScene("Game Over");
         }
     }
     public void updateHealthText()
