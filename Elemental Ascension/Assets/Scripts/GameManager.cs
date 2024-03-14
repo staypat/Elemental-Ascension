@@ -69,9 +69,18 @@ public class GameManager : MonoBehaviour
             else if (scene.name == "1-2")
             {
                 player.transform.position = new Vector3(4, 2, -16);
-            }else if(scene.name == "1-3")
+            }
+            else if (scene.name == "1-3")
             {
                 player.transform.position = new Vector3(174, 2, 45);
+            }
+            else if (scene.name == "2-1")
+            {
+                player.transform.position = new Vector3(141, 20, 81);
+            }
+            else if (scene.name == "3-1")
+            {
+                player.transform.position = new Vector3(216, 27, 123);
             }
         }
     }
