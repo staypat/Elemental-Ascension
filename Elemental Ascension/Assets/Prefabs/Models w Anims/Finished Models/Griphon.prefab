@@ -223,8 +223,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attack_x: 0
-  attack_y: 3
-  attack_z: 3
+  attack_y: 1
+  attack_z: 1
   health: 100
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 2
