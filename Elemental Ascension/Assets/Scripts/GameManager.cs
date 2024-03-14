@@ -6,13 +6,14 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    public static int level;
     public int playerHP;
 
     public static GameManager Instance { get { return _instance; } }
     // Start is called before the first frame update
     void Start()
     {
-        
+        level = 0;
     }
 
     // Update is called once per frame
