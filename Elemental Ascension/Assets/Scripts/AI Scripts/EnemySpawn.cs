@@ -32,7 +32,7 @@ public class EnemySpawn : MonoBehaviour
     {
         if (enemiesSpawned >= maxEnemies)
         {
-            // stops spawning if player killed enough enemies
+            // stops spawning if more than max amount of enemies
             return;
         }
 

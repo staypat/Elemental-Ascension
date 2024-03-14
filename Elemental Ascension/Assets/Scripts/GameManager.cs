@@ -8,12 +8,15 @@ public class GameManager : MonoBehaviour
     private static GameManager _instance;
     public static int level;
     public int playerHP;
+    public int enemiesKilled;
+    public int enemiesToNextLevel = 12;
 
     public static GameManager Instance { get { return _instance; } }
     // Start is called before the first frame update
     void Start()
     {
         level = 0;
+        enemiesKilled = 0;
     }
 
     // Update is called once per frame
@@ -103,5 +106,17 @@ public class GameManager : MonoBehaviour
                 player.transform.position = new Vector3(0, 4, -12);
             }
         }
+    }
+    public void EnemyKilled()
+    {
+        enemiesKilled++;
+        if (enemiesKilled >= enemiesToNextLevel)
+        {
+            LevelUp();
+        }
+    }
+    void LevelUp()
+    {
+        level++;
     }
 }

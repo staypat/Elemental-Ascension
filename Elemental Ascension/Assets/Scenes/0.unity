@@ -3521,7 +3521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6c59b4dc6167e439877c8d3b58170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
+  maxHealth: 100
   currentHealth: 0
   healthText: {fileID: 1635122550}
   GameOverText: {fileID: 1749338324}
@@ -6009,7 +6009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleport: {fileID: 0}
-  sceneName: 2-2
+  sceneName: 1-2
 --- !u!65 &1093118397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12821,6 +12821,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHP: 30
+  enemiesKilled: 0
+  enemiesToNextLevel: 12
 --- !u!4 &1787574158
 Transform:
   m_ObjectHideFlags: 0

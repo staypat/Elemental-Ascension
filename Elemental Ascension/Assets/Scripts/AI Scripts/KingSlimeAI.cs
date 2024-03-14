@@ -163,7 +163,8 @@ public class KingSlimeAI : MonoBehaviour
 
     private void DestroyEnemy()
     {
-        Destroy(gameObject);
+        this.gameObject.SetActive(false);
+        GameManager.Instance.EnemyKilled();
     }
 
     //Visualizing attack and sight range

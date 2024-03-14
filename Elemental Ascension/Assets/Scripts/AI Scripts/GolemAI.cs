@@ -206,6 +206,7 @@ public class GolemAI : MonoBehaviour
     public void DestroyEnemy()
     {
         this.gameObject.SetActive(false);
+        GameManager.Instance.EnemyKilled();
     }
 
     //Visualizing attack and sight range

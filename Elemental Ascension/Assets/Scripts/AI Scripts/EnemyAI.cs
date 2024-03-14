@@ -156,7 +156,8 @@ public class EnemyAI : MonoBehaviour
     }
     private void DestroyEnemy()
     {
-        Destroy(gameObject);
+        this.gameObject.SetActive(false);
+        GameManager.Instance.EnemyKilled();
     }
 
     //Visualizing attack and sight range
