@@ -11,17 +11,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 63c3a144eef76cc4e8eba3daae29c896,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 63c3a144eef76cc4e8eba3daae29c896,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 63c3a144eef76cc4e8eba3daae29c896,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 63c3a144eef76cc4e8eba3daae29c896,
         type: 3}
@@ -94,10 +94,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 7661668482153406668}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 63c3a144eef76cc4e8eba3daae29c896,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2184038641383333774}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 63c3a144eef76cc4e8eba3daae29c896,
         type: 3}
       insertIndex: -1
@@ -174,33 +170,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &2184038641383333774
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933834753406246798}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &6121018136438876866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +201,7 @@ MonoBehaviour:
   projectile: {fileID: 1218787945132914364, guid: 374e4b2951ad6204ca60324ea163566c,
     type: 3}
   sightRange: 15
-  attackRange: 7
+  attackRange: 10
   playerInSightRange: 0
   playerInAttackRange: 0
-  kiteDist: 0
+  kiteDist: 2
