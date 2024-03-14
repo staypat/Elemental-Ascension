@@ -50,6 +50,7 @@ public class EnemySpawn : MonoBehaviour
             if (!enemy.activeInHierarchy)
             {
                 enemy.transform.position = transform.position + Random.insideUnitSphere * spawnRadius;
+                enemy.transform.rotation = Quaternion.Euler(0f, 90f, 0f);
                 enemy.SetActive(true);
                 return;
             }
