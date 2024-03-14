@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
             }
             else if (scene.name == "2-3")
             {
-                player.transform.position = new Vector3(0, 4, -12);
+                player.transform.position = new Vector3(174, 2, 45);
             }
             else if (scene.name == "3-1")
             {
@@ -99,11 +99,11 @@ public class GameManager : MonoBehaviour
             }
             else if (scene.name == "3-3")
             {
-                player.transform.position = new Vector3(0, 4, -12);
+                player.transform.position = new Vector3(174, 2, 45);
             }
             else if (scene.name == "4-1")
             {
-                player.transform.position = new Vector3(0, 4, -12);
+                player.transform.position = new Vector3(97, 3, 56);
             }
         }
     }

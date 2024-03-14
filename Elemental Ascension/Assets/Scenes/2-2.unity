@@ -1284,7 +1284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabs:
   - {fileID: 1556956831422141955, guid: 216e316d9bd420d43bff4c157dd095df, type: 3}
-  - {fileID: 3091671421484586467, guid: 2fced361a2d2ebf4198a4b6a59a03e43, type: 3}
+  - {fileID: 6886739437615595334, guid: da8470440ceea614c9c2e1e343c1c6e4, type: 3}
   spawnRate: 5
   spawnRadius: 6
   poolSize: 2
