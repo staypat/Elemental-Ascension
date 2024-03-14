@@ -13,6 +13,9 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
     public TMP_Text healthText;
     public TMP_Text GameOverText;
+
+    // player hit sfx
+    public AudioClip[] hits;
     void Start()
     {
         currentHealth = maxHealth;
@@ -40,6 +43,9 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damage;
         updateHealthText();
+        // play damage sfx
+        this.GetComponent<AudioSource>().PlayOneShot(hits[Random.Range(0,3)]);
+
         if(currentHealth <= 0)
         {
             GameOverText.gameObject.SetActive(true);
