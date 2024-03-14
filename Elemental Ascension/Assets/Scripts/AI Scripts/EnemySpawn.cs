@@ -12,7 +12,7 @@ public class EnemySpawn : MonoBehaviour
     public int maxEnemies = 10;
     private List<GameObject> enemyPool = new List<GameObject>();
     private float spawnTimer = 0f;
-    private int enemiesKilled = 0;
+    public int enemiesKilled = 0;
     void Start()
     {
         // pooling

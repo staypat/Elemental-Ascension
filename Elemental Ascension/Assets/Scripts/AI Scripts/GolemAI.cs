@@ -8,7 +8,6 @@ public class GolemAI : MonoBehaviour
 {
     // Start is called before the first frame update
     //Script written from tutorial: https://www.youtube.com/watch?v=UjkSFoLxesw
-    public GameObject spawner;
     public NavMeshAgent agent;
     public Transform player;
     public Animator animator;
@@ -41,9 +40,8 @@ public class GolemAI : MonoBehaviour
     //Kiting
     public float kiteDist;
 
-    //reference for killed enemies
+    public GameObject spawner;
     private EnemySpawn enemySpawn;
-
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -200,8 +198,8 @@ public class GolemAI : MonoBehaviour
     }
     public void DestroyEnemy()
     {
-        this.gameObject.SetActive(false);
         enemySpawn.EnemyKilled();
+        this.gameObject.SetActive(false);
     }
 
     //Visualizing attack and sight range

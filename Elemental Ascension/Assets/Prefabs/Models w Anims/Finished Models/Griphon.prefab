@@ -210,3 +210,4 @@ MonoBehaviour:
   playerInSightRange: 0
   playerInAttackRange: 0
   kiteDist: 2
+  spawner: {fileID: 0}

@@ -2580,6 +2580,7 @@ MonoBehaviour:
   spawnRadius: 7
   poolSize: 2
   maxEnemies: 3
+  enemy: {fileID: 1844519602}
 --- !u!1 &1156254046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3493,6 +3494,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
+--- !u!1 &1844519602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91,
+    type: 3}
+  m_PrefabInstance: {fileID: 1844519601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9001012160766691637
 PrefabInstance:
   m_ObjectHideFlags: 0
