@@ -13116,7 +13116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHP: 30
   enemiesKilled: 0
-  enemiesToNextLevel: 12
+  enemiesToNextLevel: 8
 --- !u!4 &1787574158
 Transform:
   m_ObjectHideFlags: 0
