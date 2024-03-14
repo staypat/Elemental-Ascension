@@ -7375,7 +7375,7 @@ Transform:
   m_GameObject: {fileID: 1058945215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 28.78, y: 2, z: 36.28}
+  m_LocalPosition: {x: 28.78, y: 5.79, z: 36.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7396,7 +7396,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
   spawnRate: 5
-  spawnRadius: 2
+  spawnRadius: 6
   poolSize: 2
   maxEnemies: 2
 --- !u!1 &1071259276
@@ -49106,7 +49106,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 20e354ca330282e40b675691e1e2db00, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 5d5d0c4b722498c429bc75ab91e756dd, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &1674439140
 Transform:
