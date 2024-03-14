@@ -205,7 +205,7 @@ MonoBehaviour:
   attack_z: 1
   health: 100
   walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 2
+  walkPointRange: 0
   timeBetweenAttacks: 4
   projectile: {fileID: 5496847952631659592, guid: 49f3ed6560b4047468bf655001a64243,
     type: 3}

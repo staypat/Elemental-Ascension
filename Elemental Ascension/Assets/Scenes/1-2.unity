@@ -7375,7 +7375,7 @@ Transform:
   m_GameObject: {fileID: 1058945215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 28.78, y: 4.77, z: 36.28}
+  m_LocalPosition: {x: 28.78, y: 2, z: 36.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7396,7 +7396,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
   spawnRate: 5
-  spawnRadius: 4
+  spawnRadius: 2
   poolSize: 2
   maxEnemies: 2
 --- !u!1 &1071259276
@@ -50720,7 +50720,7 @@ PrefabInstance:
     - target: {fileID: 5960485645247159534, guid: 5c2451b70caf8dd4ab631d0d894418a0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6946059924325064461, guid: 5c2451b70caf8dd4ab631d0d894418a0,
         type: 3}
@@ -50765,7 +50765,7 @@ PrefabInstance:
     - target: {fileID: 8964831428919186215, guid: 5c2451b70caf8dd4ab631d0d894418a0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
