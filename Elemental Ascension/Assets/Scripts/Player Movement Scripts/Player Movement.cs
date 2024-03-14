@@ -161,6 +161,14 @@ public class PlayerMovement : MonoBehaviour
             Vector3 dashDirection = (cameraRight * Input.GetAxisRaw("Horizontal") + cameraForward * Input.GetAxisRaw("Vertical")).normalized; // Dash in the direction of movement
             float startTime = Time.time;
 
+            // Raycast to check for collision
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, dashDirection, out hit, dashTime * dashForce, ~whatIsGround))
+            {
+                // There is an obstacle in the dash direction, adjust the dash time accordingly
+                dashTime = hit.distance / dashForce;
+            }
+
             while (Time.time < startTime + dashTime)
             {
                 rb.AddForce(dashDirection * dashForce, ForceMode.Impulse);
