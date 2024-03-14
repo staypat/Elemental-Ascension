@@ -8,6 +8,7 @@ public class MerchantInteraction : MonoBehaviour
     // Start is called before the first frame update
     private bool hasTriggered = false;
     public Subtitles text;
+    public GameObject portal;
     void Start()
     {
 
@@ -23,10 +24,11 @@ public class MerchantInteraction : MonoBehaviour
         if (!hasTriggered && other.CompareTag("Player"))
         {
             PlayerHealth.Instance.currentHealth += 20;
+            portal.SetActive(true);
+            hasTriggered = true;
             UpdateHealthUIText();
             text.ShowSubtitle("It's dangerous to go alone! Take this.");
             StartCoroutine(HideSubtitles());
-            hasTriggered = true;
         }
     }
     private void UpdateHealthUIText()
