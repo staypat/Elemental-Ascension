@@ -839,7 +839,7 @@ GameObject:
   - component: {fileID: 202447457}
   - component: {fileID: 202447456}
   m_Layer: 0
-  m_Name: Air Tower Manager
+  m_Name: Fire Tower Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1283,8 +1283,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
-  - {fileID: 5938279669372769156, guid: 90bc08b49ce3f724aaf37b0dd9823c58, type: 3}
+  - {fileID: 2113462537607919662, guid: a7b5b9efcfac68944b6f2c2c3d44e562, type: 3}
+  - {fileID: 6889551027092934123, guid: 67d7b4ec97802b24588d6631ad17bad8, type: 3}
   spawnRate: 5
   spawnRadius: 6
   poolSize: 2
@@ -4244,8 +4244,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
-  - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
+  - {fileID: 2113462537607919662, guid: a7b5b9efcfac68944b6f2c2c3d44e562, type: 3}
+  - {fileID: 2113462537607919662, guid: a7b5b9efcfac68944b6f2c2c3d44e562, type: 3}
   spawnRate: 5
   spawnRadius: 6
   poolSize: 3
@@ -5049,7 +5049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 8933834753406246798, guid: e0e7a94376533324b88148e6b4899f91, type: 3}
+  - {fileID: 2113462537607919662, guid: a7b5b9efcfac68944b6f2c2c3d44e562, type: 3}
   spawnRate: 5
   spawnRadius: 6
   poolSize: 2
