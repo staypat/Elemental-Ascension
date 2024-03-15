@@ -9,6 +9,12 @@ public class ChangeScene : MonoBehaviour
     // Loading scene
     public void LoadScene(string sceneName)
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "Game Over" || currentScene.name == "Game Over Win") 
+        {
+            PlayerHealth.Instance.resetHP();
+        }
+        Debug.Log(currentScene.name);
         SceneManager.LoadScene(sceneName);
     }
 

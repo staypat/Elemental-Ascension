@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void Awake()
     {
@@ -56,4 +56,10 @@ public class PlayerHealth : MonoBehaviour
     {
         healthText.text = currentHealth.ToString() + "/" + maxHealth.ToString();
     }
+    public void resetHP()
+    {
+        currentHealth = maxHealth;
+        updateHealthText() ;
+    }
+
 }

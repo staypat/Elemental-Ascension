@@ -127,4 +127,11 @@ public class GameManager : MonoBehaviour
     {
         level++;
     }
+
+    public void resetHP()
+    {
+        Debug.Log("hp reset");
+        playerHP = 100;
+        Debug.Log(playerHP);
+    }
 }
