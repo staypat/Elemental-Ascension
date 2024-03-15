@@ -58,7 +58,8 @@ public class PlayerHealth : MonoBehaviour
     }
     public void resetHP()
     {
-        currentHealth = maxHealth;
+        currentHealth = 100;
+        maxHealth = currentHealth;
         updateHealthText() ;
     }
 
