@@ -14,7 +14,7 @@ public class ChangeScene : MonoBehaviour
         {
             PlayerHealth.Instance.resetHP();
         }
-        if (sceneName == "Menu" || sceneName == "Credits")
+        if (sceneName == "Menu" || sceneName == "Credits" || sceneName == "Game Over Win")
         {
             if (GameManager.Instance != null)
                 GameManager.Instance.toggleUI(false);
