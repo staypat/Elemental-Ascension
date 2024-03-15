@@ -22,6 +22,10 @@ public class SceneChanger : MonoBehaviour
     public void GoToScene(string sceneName)
     {
         GameManager.Instance.playerHP = PlayerHealth.Instance.currentHealth;
+        if (sceneName == "Game Over Win")
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
         SceneManager.LoadScene(sceneName);
         // Type in name of scene in inspector
     }
