@@ -14,13 +14,15 @@ public class ChangeScene : MonoBehaviour
         {
             PlayerHealth.Instance.resetHP();
         }
-        if (sceneName == "Menu")
+        if (sceneName == "Menu" || sceneName == "Credits")
         {
-            GameManager.Instance.toggleUI(false);
+            if (GameManager.Instance != null)
+                GameManager.Instance.toggleUI(false);
         }
         else
         {
-            GameManager.Instance.toggleUI(true);
+            if (GameManager.Instance != null)
+                GameManager.Instance.toggleUI(true);
         }
         Debug.Log(currentScene.name);
         SceneManager.LoadScene(sceneName);
