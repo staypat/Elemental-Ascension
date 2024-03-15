@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public int playerHP;
     public int enemiesKilled;
     public int enemiesToNextLevel = 8;
+    public GameObject UI;
 
     public static GameManager Instance { get { return _instance; } }
     // Start is called before the first frame update
@@ -128,10 +129,8 @@ public class GameManager : MonoBehaviour
         level++;
     }
 
-    public void resetHP()
+    public void toggleUI(bool state)
     {
-        Debug.Log("hp reset");
-        playerHP = 100;
-        Debug.Log(playerHP);
+        UI.SetActive(state);
     }
 }

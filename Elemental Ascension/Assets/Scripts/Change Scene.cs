@@ -14,6 +14,14 @@ public class ChangeScene : MonoBehaviour
         {
             PlayerHealth.Instance.resetHP();
         }
+        if (sceneName == "Menu")
+        {
+            GameManager.Instance.toggleUI(false);
+        }
+        else
+        {
+            GameManager.Instance.toggleUI(true);
+        }
         Debug.Log(currentScene.name);
         SceneManager.LoadScene(sceneName);
     }

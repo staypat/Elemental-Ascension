@@ -13117,6 +13117,7 @@ MonoBehaviour:
   playerHP: 100
   enemiesKilled: 0
   enemiesToNextLevel: 8
+  UI: {fileID: 1849043060}
 --- !u!4 &1787574158
 Transform:
   m_ObjectHideFlags: 0
