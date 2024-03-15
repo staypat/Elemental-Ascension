@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public int enemiesKilled;
     public int enemiesToNextLevel = 8;
     public GameObject UI;
+    public GameObject sword;
 
     public static GameManager Instance { get { return _instance; } }
     // Start is called before the first frame update
@@ -132,5 +133,6 @@ public class GameManager : MonoBehaviour
     public void toggleUI(bool state)
     {
         UI.SetActive(state);
+        sword.SetActive(state);
     }
 }
